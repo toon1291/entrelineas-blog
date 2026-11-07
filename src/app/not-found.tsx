@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main id='main' className='section member-page'><h1>Esta página aún no se ha escrito.</h1><Link className='button gold' href='/'>Volver al inicio</Link></main>}
