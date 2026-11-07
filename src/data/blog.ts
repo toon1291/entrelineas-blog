@@ -81,6 +81,10 @@ export interface Story {
     url: string;
   }[];
   shop: string;
+  shopLinks: {
+    label: string;
+    url: string;
+  }[];
 }
 
 export const stories: Story[] = [
@@ -90,15 +94,16 @@ export const stories: Story[] = [
     originalTitle:
       'Título original individual no verificado; varía según la edición.',
     collection: 'Alf layla wa-layla · Las mil y una noches',
-    literaryAuthor: 'Anónimo',
+    literaryAuthor:
+      'Anónimo — tradición narrativa de Las mil y una noches.',
     written:
       'Fecha exacta desconocida. Relato de tradición medieval transmitido y reelaborado durante siglos.',
     authorId: 'oscar',
-    publishedAt: null,
+    publishedAt: '2026-11-06',
     plannedDate: '2026-11-06',
-    status: 'draft',
+    status: 'published',
     excerpt:
-      'Dos hermanos, una herida compartida y una decisión que cambiará mil y una noches. Un relato sobre el poder, los prejuicios y la palabra.',
+      'Dos hermanos, una herida compartida y una decisión que cambiará mil y una noches.\nUn relato sobre el poder, los prejuicios y la palabra.',
 
     characters: [
       {
@@ -151,11 +156,11 @@ export const stories: Story[] = [
       'El conocimiento y la palabra pueden cuestionar la violencia. Scherezada convierte su inteligencia narrativa en una forma de resistencia.',
     ],
 
-    audio: null,
+    audio: '/audio/schahriar-schahzaman.mp3',
 
-    illustration: '/ilustraciones/reyes-palacio.png',
+    illustration: '/ilustraciones/portada-schahriar.jpg',
     illustrationAlt:
-      'Schahriar y Schahzaman conversando en el palacio.',
+      'Schahriar escucha a Scherezada en el palacio.',
 
     illustrations: [
       {
@@ -192,6 +197,16 @@ export const stories: Story[] = [
     ],
 
     shop: 'https://www.elsotano.com/libro-las-mil-y-una-noches-10617780',
+    shopLinks: [
+      {
+        label: 'Comprar en Gandhi · Edición 1',
+        url: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+      },
+      {
+        label: 'Comprar en Gandhi · Edición 2',
+        url: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p?utm_source=chatgpt.com',
+      },
+    ],
   },
 ];
 
