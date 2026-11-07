@@ -1,4 +1,5 @@
 import StoryGallery from '@/components/StoryGallery';
+import AudioPlayer from '@/components/AudioPlayer';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { stories, members, dateLabel } from '@/data/blog';
@@ -107,10 +108,6 @@ export default async function StoryPage({
 
             <h2>Tres ideas que nos llevamos</h2>
 
-            <p className="muted">
-              Interpretaciones del equipo a partir de la lectura.
-            </p>
-
             {story.lessons.map((lesson, index) => (
               <div className="lesson" key={index}>
                 <span>
@@ -171,6 +168,17 @@ export default async function StoryPage({
         </div>
 
         <aside>
+          {story.illustration && (
+            <figure className="story-side-cover">
+              <img
+                src={story.illustration}
+                alt={story.illustrationAlt}
+                width={1024}
+                height={1536}
+              />
+            </figure>
+          )}
+
           <div className="audio-panel">
             <Headphones size={27} />
 
@@ -179,13 +187,9 @@ export default async function StoryPage({
             <p>La misma información, solo con voz.</p>
 
             {story.audio ? (
-              <audio
-                controls
-                preload="metadata"
+              <AudioPlayer
                 src={story.audio}
-              >
-                Tu navegador no admite audio.
-              </audio>
+              />
             ) : (
               <span className="pill">
                 Grabación pendiente
@@ -201,19 +205,33 @@ export default async function StoryPage({
             <h3>Un lugar en tu biblioteca</h3>
 
             <p>
-              Encuentra la obra en Librerías El Sótano.
-              Revisa edición y disponibilidad en su catálogo.
+              Consulta distintas ediciones y elige dónde comprarla.
             </p>
 
-            <a
-              href={story.shop}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-link"
-            >
-              Consultar libro
-              <ArrowUpRight size={17} />
-            </a>
+            <div className="shop-links">
+              <a
+                href={story.shop}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-link"
+              >
+                Comprar en El Sótano
+                <ArrowUpRight size={17} />
+              </a>
+
+              {story.shopLinks.map((shopLink) => (
+                <a
+                  key={shopLink.url}
+                  href={shopLink.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-link"
+                >
+                  {shopLink.label}
+                  <ArrowUpRight size={17} />
+                </a>
+              ))}
+            </div>
           </div>
         </aside>
       </div>
