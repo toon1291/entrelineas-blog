@@ -1,0 +1,226 @@
+export const members = [
+  {
+    id: 'oscar',
+    name: 'Oscar Barranco Rojas',
+    official: 'Barranco Rojas Oscar',
+    initials: 'OB',
+    control: '23221014',
+  },
+  {
+    id: 'dario',
+    name: 'Darío Franco Cortés González',
+    official: 'Cortés González Darío Franco',
+    initials: 'DC',
+    control: '23222213',
+  },
+  {
+    id: 'elizabeth',
+    name: 'Elizabeth Fernández Limon',
+    official: 'Fernández Limon Elizabeth',
+    initials: 'EF',
+    control: '23221053',
+  },
+  {
+    id: 'diego',
+    name: 'Diego Garcia Cruz',
+    official: 'Garcia Cruz Diego',
+    initials: 'DG',
+    control: '23221041',
+  },
+  {
+    id: 'ismael',
+    name: 'Ismael Monterrosas Zitlalpopoca',
+    official: 'Monterrosas Zitlalpopoca Ismael',
+    initials: 'IM',
+    control: '23221130',
+  },
+  {
+    id: 'oliver',
+    name: 'Oliver Yael Teopancal Sanchez',
+    official: 'Teopancal Sanchez Oliver Yael',
+    initials: 'OT',
+    control: '23222288',
+  },
+];
+
+export interface Illustration {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
+export interface Story {
+  slug: string;
+  title: string;
+  originalTitle: string;
+  collection: string;
+  literaryAuthor: string;
+  written: string;
+  authorId: string;
+  publishedAt: string | null;
+  plannedDate: string;
+  status: 'draft' | 'published';
+  excerpt: string;
+  characters: {
+    name: string;
+    description: string;
+  }[];
+  summary: string[];
+  lessons: string[];
+  audio: string | null;
+
+  // Imagen principal, compatible con el diseño actual.
+  illustration: string | null;
+  illustrationAlt: string;
+
+  // Galería de imágenes del cuento.
+  illustrations?: Illustration[];
+
+  sources: {
+    label: string;
+    url: string;
+  }[];
+  shop: string;
+}
+
+export const stories: Story[] = [
+  {
+    slug: 'el-rey-schahriar-y-su-hermano',
+    title: 'El rey Schahriar y su hermano, el rey Schahzaman',
+    originalTitle:
+      'Título original individual no verificado; varía según la edición.',
+    collection: 'Alf layla wa-layla · Las mil y una noches',
+    literaryAuthor: 'Anónimo',
+    written:
+      'Fecha exacta desconocida. Relato de tradición medieval transmitido y reelaborado durante siglos.',
+    authorId: 'oscar',
+    publishedAt: null,
+    plannedDate: '2026-11-06',
+    status: 'draft',
+    excerpt:
+      'Dos hermanos, una herida compartida y una decisión que cambiará mil y una noches. Un relato sobre el poder, los prejuicios y la palabra.',
+
+    characters: [
+      {
+        name: 'Schahriar',
+        description:
+          'Rey que transforma una traición personal en una venganza contra mujeres inocentes.',
+      },
+      {
+        name: 'Schahzaman',
+        description:
+          'Hermano de Schahriar, cuya experiencia pone en marcha el relato.',
+      },
+      {
+        name: 'Las esposas de los reyes',
+        description:
+          'Sus infidelidades desencadenan el conflicto.',
+      },
+      {
+        name: 'El genio y la mujer cautiva',
+        description:
+          'Aparecen durante el viaje y ponen en evidencia los límites del control.',
+      },
+      {
+        name: 'Scherezada',
+        description:
+          'En la continuación del relato introductorio, intenta detener la violencia mediante historias.',
+      },
+      {
+        name: 'El visir y la hermana de Scherezada',
+        description:
+          'Intervienen en la preparación de su estrategia narrativa.',
+      },
+    ],
+
+    summary: [
+      'Schahzaman se dispone a visitar a su hermano Schahriar. Al regresar inesperadamente a su palacio, descubre la infidelidad de su esposa y reacciona con violencia. Después viaja sumido en la tristeza.',
+
+      'En el palacio de su hermano observa otra infidelidad, ahora de la esposa de Schahriar. Cuando ambos conocen lo ocurrido, emprenden un viaje. El encuentro con un genio y una mujer cautiva refuerza su desconfianza, que generalizan injustamente a todas las mujeres.',
+
+      'De regreso, Schahriar ordena casarse con una joven cada noche y ejecutarla al amanecer. Su dolor se convierte en abuso de poder contra personas inocentes.',
+
+      'Esta situación da paso a la intervención de Scherezada: decide casarse con él y contar historias que deja inconclusas al amanecer. Así comienza el marco narrativo de Las mil y una noches. Los límites de este capítulo varían entre ediciones.',
+    ],
+
+    lessons: [
+      'Una experiencia dolorosa no justifica juzgar a todo un grupo. Cada persona es responsable de sus propios actos.',
+
+      'La venganza multiplica el daño. El sufrimiento personal no da derecho a lastimar a personas inocentes.',
+
+      'El conocimiento y la palabra pueden cuestionar la violencia. Scherezada convierte su inteligencia narrativa en una forma de resistencia.',
+    ],
+
+    audio: null,
+
+    illustration: '/ilustraciones/reyes-palacio.png',
+    illustrationAlt:
+      'Schahriar y Schahzaman conversando en el palacio.',
+
+    illustrations: [
+      {
+        src: '/ilustraciones/reyes-palacio.png',
+        alt: 'Los dos reyes conversan en el patio de un palacio.',
+        caption: 'Schahriar y Schahzaman en el palacio.',
+      },
+      {
+        src: '/ilustraciones/viaje-hermanos.png',
+        alt: 'Los dos hermanos viajan a caballo junto al mar.',
+        caption: 'El viaje de los hermanos.',
+      },
+      {
+        src: '/ilustraciones/scherezada-hermana.png',
+        alt: 'Scherezada conversa con su hermana junto a libros y manuscritos.',
+        caption: 'Interpretación artística de Scherezada preparando su plan.',
+      },
+      {
+        src: '/ilustraciones/scherezada-rey.png',
+        alt: 'Scherezada cuenta una historia al rey a la luz de una lámpara.',
+        caption: 'Scherezada narra una historia al rey.',
+      },
+    ],
+
+    sources: [
+      {
+        label: 'Texto del relato · Project Gutenberg (traducción inglesa)',
+        url: 'https://www.gutenberg.org/files/51252/51252-h/51252-h.htm',
+      },
+      {
+        label: 'Contexto histórico · Encyclopaedia Iranica',
+        url: 'https://www.iranicaonline.org/articles/alf-layla-wa-layla/',
+      },
+    ],
+
+    shop: 'https://www.elsotano.com/libro-las-mil-y-una-noches-10617780',
+  },
+];
+
+export const schedule = Array.from({ length: 24 }, (_, index) => ({
+  date: `2026-11-${String(index + 6).padStart(2, '0')}`,
+  member: members[index % members.length],
+  round: Math.floor(index / members.length) + 1,
+}));
+
+export function dateLabel(date: string): string {
+  return new Intl.DateTimeFormat('es-MX', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(`${date}T12:00:00Z`));
+}
+
+// Cambiar estos datos únicamente cuando se publique realmente.
+// La fecha prevista no equivale a una fecha real de publicación.
+export const visibleStories = stories.filter(
+  (story) => story.status === 'published' && story.publishedAt,
+);
+
+export const socialProfiles: {
+  name: string;
+  url: string | null;
+}[] = [
+  { name: 'Instagram', url: 'https://www.instagram.com/entr_elineasblog/' },
+  { name: 'Facebook', url: 'https://www.facebook.com/entrelineasblog1' },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@entr_elineasblog' },
+];
