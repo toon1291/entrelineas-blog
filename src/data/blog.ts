@@ -216,9 +216,9 @@ export const stories: Story[] = [
     literaryAuthor: 'Anónimo',
     written: 'Fecha de composición desconocida',
     authorId: 'dario',
-    publishedAt: null,
+    publishedAt: '2026-11-07',
     plannedDate: '2026-11-07',
-    status: 'draft',
+    status: 'published',
     excerpt:
       'El médico Ruyán cura al rey Yunán, pero la envidia del visir siembra desconfianza y desencadena una decisión fatal.',
     characters: [
