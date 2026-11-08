@@ -208,6 +208,91 @@ export const stories: Story[] = [
       },
     ],
   },
+  {
+    slug: 'el-visir-del-rey-yunan-y-el-medico-ruyan',
+    title: 'El visir del rey Yunán y el médico Ruyán',
+    originalTitle: 'Historia del visir del rey Yunán y del médico Ruyán',
+    collection: 'Las mil y una noches',
+    literaryAuthor: 'Anónimo',
+    written: 'Fecha de composición desconocida',
+    authorId: 'dario',
+    publishedAt: null,
+    plannedDate: '2026-11-07',
+    status: 'draft',
+    excerpt:
+      'El médico Ruyán cura al rey Yunán, pero la envidia del visir siembra desconfianza y desencadena una decisión fatal.',
+    characters: [
+      {
+        name: 'Rey Yunán',
+        description: 'Gobernante que padece lepra.',
+      },
+      {
+        name: 'Médico Ruyán',
+        description:
+          'Sabio que consigue curarlo mediante un ingenioso tratamiento.',
+      },
+      {
+        name: 'Visir',
+        description:
+          'Consejero del rey que siente envidia del médico y provoca desconfianza.',
+      },
+      {
+        name: 'Pescador y efrit',
+        description:
+          'Personajes del marco narrativo en el que se cuenta la historia.',
+      },
+    ],
+    summary: [
+      'El rey Yunán padece una enfermedad que otros médicos no han podido curar. El médico Ruyán consigue sanarlo mediante un tratamiento ingenioso que utiliza un mazo y una pelota medicinal. Agradecido, el rey recompensa al médico, pero su visir siente envidia y convence al monarca de que Ruyán representa una amenaza. El rey ordena ejecutarlo. Antes de morir, el médico le entrega un libro que supuestamente le permitirá comunicarse con su cabeza después de ser decapitado. Sin embargo, al leerlo, el rey entra en contacto con un veneno y muere.',
+    ],
+    lessons: [
+      'No debemos dejarnos llevar por la envidia, porque puede provocar injusticias.',
+      'Debemos ser agradecidos y respetar a quienes nos ayudan.',
+      'Antes de tomar decisiones importantes, debemos pensar, investigar los hechos y no dejarnos manipular por rumores.',
+    ],
+    audio: '/audio/visir-rey-yunan-medico-ruyan.mp3',
+    illustration: '/ilustraciones/visir-rey-yunan-3.jpg',
+    illustrationAlt:
+      'Portada ilustrada del cuento. Autoría y licencia pendientes de verificación.',
+    illustrations: [
+      {
+        src: '/ilustraciones/visir-rey-yunan-1.jpg',
+        alt: 'Rey acompañado de una joven.',
+        caption: 'Rey acompañado de una joven.',
+      },
+      {
+        src: '/ilustraciones/visir-rey-yunan-2.jpg',
+        alt: 'Dos hombres sentados sobre una alfombra decorada con motivos florales y geométricos.',
+        caption:
+          'Dos hombres sentados sobre una alfombra decorada con motivos florales y geométricos.',
+      },
+      {
+        src: '/ilustraciones/visir-rey-yunan-3.jpg',
+        alt: 'Portada ilustrada del cuento.',
+        caption: 'Portada ilustrada del cuento.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Biblioteca Digital ILCE',
+        url: 'https://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/10Cuentos_LasMilNoches.pdf',
+      },
+      {
+        label: 'Wikisource — El libro de las mil noches y una noche, Tomo I',
+        url: 'https://es.wikisource.org/wiki/El_libro_de_las_mil_noches_y_una_noche/Tomo_I',
+      },
+      {
+        label: 'DivinorTV — Historia del visir del rey Yunán y del médico Ruyán',
+        url: 'https://www.divinortv.com/2022/11/historia-del-visir-del-rey-yunan-y-del.html',
+      },
+      {
+        label: 'iVoox — 9.ª noche, historia del visir del rey Yunán',
+        url: 'https://www.ivoox.com/9a-noche-historia-del-visir-del-rey-yunan-audios-mp3_rf_17190694_1.html',
+      },
+    ],
+    shop: '',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
