@@ -57,9 +57,16 @@ export default async function StoryPage({
 
         <p className="lead">{story.excerpt}</p>
 
-        <Link href={`/integrantes/${member.id}`}>
-          {member.name}
-        </Link>
+        <p>
+          <b>
+            {story.authorId === 'elizabeth'
+              ? 'Autora de la publicación:'
+              : 'Autor de la publicación:'}
+          </b>{' '}
+          <Link href={`/integrantes/${member.id}`}>
+            {member.name}
+          </Link>
+        </p>
 
         <p className="muted">
           {story.publishedAt
@@ -83,8 +90,15 @@ export default async function StoryPage({
               <b>Nombre original:</b> {story.originalTitle}
             </p>
 
+            {story.spanishName && (
+              <p>
+                <b>Nombre en español:</b> {story.spanishName}
+              </p>
+            )}
+
             <p>
-              <b>Colección:</b> {story.collection}
+              <b>Colección:</b>{' '}
+              {story.collectionDetail || story.collection}
             </p>
 
             <p>
@@ -137,10 +151,17 @@ export default async function StoryPage({
                 </figcaption>
               </figure>
             ) : (
-              <p className="notice">
-                Las ilustraciones de este cuento estarán
-                disponibles próximamente.
-              </p>
+              <>
+                <p className="notice">
+                  Las ilustraciones de este cuento estarán
+                  disponibles próximamente.
+                </p>
+                {story.illustrationDescriptions?.map(
+                  (description) => (
+                    <p key={description}>{description}</p>
+                  ),
+                )}
+              </>
             )}
 
             <h2>Fuentes y lectura</h2>
@@ -160,9 +181,8 @@ export default async function StoryPage({
             </ul>
 
             <p className="notice">
-              Nota de contenido: el relato aborda infidelidad,
-              violencia y abuso de poder. Se presenta sin detalles
-              gráficos y con una lectura crítica de sus prejuicios.
+              {story.contentNote ||
+                'Nota de contenido: el relato aborda infidelidad, violencia y abuso de poder. Se presenta sin detalles gráficos y con una lectura crítica de sus prejuicios.'}
             </p>
           </section>
         </div>
@@ -202,10 +222,11 @@ export default async function StoryPage({
           </div>
 
           <div className="audio-panel">
-            <h3>Un lugar en tu biblioteca</h3>
+            <h3>Dónde comprar la obra</h3>
 
             <p>
-              Consulta distintas ediciones y elige dónde comprarla.
+              El cuento pertenece a la colección Las mil y una noches.
+              Puedes consultar ediciones en:
             </p>
 
             <div className="shop-links">
@@ -215,7 +236,7 @@ export default async function StoryPage({
                 rel="noopener noreferrer"
                 className="text-link"
               >
-                Comprar en El Sótano
+                {story.shopLabel || 'Comprar en El Sótano'}
                 <ArrowUpRight size={17} />
               </a>
 

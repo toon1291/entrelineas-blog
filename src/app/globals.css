@@ -348,6 +348,15 @@
   }
 }
 
+.article-grid > div,
+.article-grid aside {
+  min-width: 0;
+}
+
+.lead {
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 700px) {
   body {
     overflow-x: hidden;

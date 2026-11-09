@@ -53,7 +53,9 @@ export interface Story {
   slug: string;
   title: string;
   originalTitle: string;
+  spanishName?: string;
   collection: string;
+  collectionDetail?: string;
   literaryAuthor: string;
   written: string;
   authorId: string;
@@ -75,12 +77,15 @@ export interface Story {
 
   // Galería de imágenes del cuento.
   illustrations?: Illustration[];
+  illustrationDescriptions?: string[];
+  contentNote?: string;
 
   sources: {
     label: string;
     url: string;
   }[];
   shop: string;
+  shopLabel?: string;
   shopLinks: {
     label: string;
     url: string;
@@ -212,61 +217,106 @@ export const stories: Story[] = [
   },
   {
     slug: 'las-mil-y-una-noches',
-    title: 'Las mil y una noches',
-    originalTitle: 'Alf layla wa-layla',
+    title: 'Historia del príncipe y la vampiro',
+    originalTitle:
+      'Título individual en árabe no verificado para la edición consultada.',
+    spanishName: 'Historia del príncipe y la vampiro.',
     collection: 'Las mil y una noches',
-    literaryAuthor: 'Anónimo — tradición narrativa.',
-    written: 'Fecha de composición desconocida.',
+    collectionDetail:
+      'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+    literaryAuthor:
+      'Anónimo — tradición narrativa de Las mil y una noches.',
+    written:
+      'Fecha exacta desconocida; relato perteneciente a la tradición medieval de la colección.',
     authorId: 'elizabeth',
     publishedAt: '2026-11-08',
     plannedDate: '2026-11-08',
     status: 'published',
     excerpt:
-      'El rey Shahriar descubre la infidelidad de su esposa y, consumido por la ira y el desengaño, decide casarse cada noche con una virgen diferente y mandar a ejecutarla al amanecer para asegurarse de que no puedan traicionarlo.',
+      'Un consejo peligroso, una desconocida y una trampa oculta.\nUn relato sobre la prudencia, las apariencias y la fortaleza ante el miedo.',
     characters: [
       {
-        name: 'Rey Shahriar',
+        name: 'El príncipe',
         description:
-          'Gobernante que, después de descubrir la infidelidad de su esposa, pierde la confianza en las mujeres y toma decisiones crueles impulsadas por el dolor y la venganza.',
+          'Joven aficionado a la caza que enfrenta una trampa.',
       },
       {
-        name: 'La esposa del rey',
+        name: 'La vampiro',
         description:
-          'Su infidelidad desencadena la desconfianza y la ira de Shahriar, dando inicio al conflicto.',
+          'Criatura que aparenta ser una joven indefensa.',
       },
       {
-        name: 'Las jóvenes del reino',
+        name: 'El visir',
         description:
-          'Mujeres inocentes que sufren las consecuencias de las decisiones del rey, convirtiéndose en víctimas de su venganza.',
+          'Consejero responsable de acompañar al príncipe.',
       },
       {
-        name: 'Scherezada',
-        description:
-          'Joven inteligente y valiente que decide casarse con Shahriar para intentar detener las ejecuciones mediante el poder de sus historias.',
+        name: 'El rey',
+        description: 'Padre del protagonista.',
+      },
+      {
+        name: 'Los hijos de la vampiro',
+        description: 'Esperan devorar al joven.',
       },
     ],
     summary: [
-      'El rey Shahriar descubre la infidelidad de su esposa y, consumido por la ira y el desengaño, decide casarse cada noche con una virgen diferente y mandar a ejecutarla al amanecer para asegurarse de que no puedan traicionarlo.',
+      'Un príncipe sale de cacería acompañado por un visir encargado de protegerlo. Siguiendo su consejo, persigue a una fiera y termina perdido en el desierto.',
+      'Allí encuentra a una joven que llora y afirma ser una princesa abandonada por su caravana. Él se compadece y la lleva en su caballo.',
+      'Cuando ella se detiene en un bosquecillo, el príncipe la sigue y escucha cómo promete entregarlo a sus hijos para que lo devoren: es una criatura sobrenatural.',
+      'Aterrorizado, pide ayuda a Alá y la mujer desaparece. El príncipe regresa con su padre, relata lo sucedido y denuncia el consejo del visir. El rey ordena ejecutar al consejero.',
     ],
     lessons: [
-      '**La venganza no soluciona los problemas.** Actuar desde el enojo y el resentimiento puede provocar consecuencias terribles, especialmente cuando se lastima a personas inocentes.',
-      '**No debemos juzgar a todos por las acciones de una persona.** Una traición no significa que todas las personas sean iguales. Es importante aprender a distinguir las acciones individuales.',
-      '**La inteligencia y el diálogo pueden vencer a la violencia.** Scherezada demuestra que las palabras, la creatividad y la sabiduría pueden convertirse en herramientas para transformar situaciones difíciles.',
+      'Ayudar también requiere prudencia. La compasión es valiosa, pero conviene observar las circunstancias y cuidar nuestra seguridad. Podemos ayudar sin ignorar las señales de peligro.',
+      'Los consejos deben evaluarse. Una recomendación puede tener consecuencias graves, incluso cuando proviene de alguien con autoridad. Pensar por cuenta propia y valorar los riesgos ayuda a tomar mejores decisiones.',
+      'El miedo no tiene que paralizarnos. Reconocer un peligro permite buscar una salida. En el relato, el príncipe encuentra fortaleza en su fe; esta situación invita a reflexionar sobre nuestros propios recursos para afrontar momentos difíciles.',
     ],
-    audio:
-      '/audio/ElevenLabs_2026-11-09T01_13_57_Roger - Laid-Back, Casual, Resonant_pre_s50_sim75_v4.mp3',
-    illustration: '/ilustraciones/images (1).jpg',
-    illustrationAlt: 'Portada de Las mil y una noches, de Editorial Planeta.',
+    audio: null,
+    illustration: '/ilustraciones/portada-principe-vampiro.png',
+    illustrationAlt:
+      'Portada ilustrada de Las mil y una noches, edición de Plutón Ediciones.',
     illustrations: [
       {
-        src: '/ilustraciones/images (2).jpg',
-        alt: 'Portada ilustrada de Las mil y una noches, edición de Editors.',
-        caption: 'Otra edición ilustrada de Las mil y una noches.',
+        src: '/ilustraciones/principe-vampiro-encuentro.png',
+        alt: 'El príncipe encuentra a una mujer junto a su caballo frente a la ciudad.',
+        caption:
+          'El encuentro: el príncipe ofrece ayuda a la mujer que afirma estar perdida.',
+      },
+      {
+        src: '/ilustraciones/principe-vampiro-oracion.png',
+        alt: 'El príncipe eleva las manos en oración mientras la mujer se desvanece entre la niebla.',
+        caption:
+          'La salvación: el príncipe pide ayuda ante la presencia sobrenatural.',
+      },
+      {
+        src: '/ilustraciones/principe-vampiro-arbol.png',
+        alt: 'El príncipe se oculta detrás de un árbol y observa a la mujer junto a una cueva.',
+        caption:
+          'La trampa descubierta: el príncipe escucha las intenciones de la criatura.',
+      },
+      {
+        src: '/ilustraciones/principe-vampiro-bosque.png',
+        alt: 'El príncipe y la mujer avanzan a caballo hacia un bosque al atardecer.',
+        caption:
+          'El camino al bosque: la desconocida guía al príncipe hacia el lugar de la trampa.',
       },
     ],
-    sources: [],
-    shop: '',
-    shopLinks: [],
+    sources: [
+      {
+        label:
+          'Biblioteca Digital del ILCE — Diez cuentos de Las mil y una noches (págs. 46–48)',
+        url: 'https://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/10Cuentos_LasMilNoches.pdf',
+      },
+    ],
+    contentNote:
+      'Nota de contenido: el cuento incluye engaño, amenaza de ser devorado y una ejecución. El resumen evita detalles gráficos. Las enseñanzas propuestas no justifican los castigos violentos del relato.',
+    shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p',
+    shopLabel: 'Comprar en Librerías Gandhi',
+    shopLinks: [
+      {
+        label: 'Comprar en Cafebrería El Péndulo',
+        url: 'https://pendulo.com/libro/mil-y-una-noches-i-y-ii-las_223204',
+      },
+    ],
   },
   {
     slug: 'el-visir-del-rey-yunan-y-el-medico-ruyan',
