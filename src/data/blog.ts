@@ -207,6 +207,66 @@ export const stories: Story[] = [
         url: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p?utm_source=chatgpt.com',
       },
     ],
+    
+    
+  },
+  {
+    slug: 'las-mil-y-una-noches',
+    title: 'Las mil y una noches',
+    originalTitle: 'Alf layla wa-layla',
+    collection: 'Las mil y una noches',
+    literaryAuthor: 'Anónimo — tradición narrativa.',
+    written: 'Fecha de composición desconocida.',
+    authorId: 'elizabeth',
+    publishedAt: '2026-11-08',
+    plannedDate: '2026-11-08',
+    status: 'published',
+    excerpt:
+      'El rey Shahriar descubre la infidelidad de su esposa y, consumido por la ira y el desengaño, decide casarse cada noche con una virgen diferente y mandar a ejecutarla al amanecer para asegurarse de que no puedan traicionarlo.',
+    characters: [
+      {
+        name: 'Rey Shahriar',
+        description:
+          'Gobernante que, después de descubrir la infidelidad de su esposa, pierde la confianza en las mujeres y toma decisiones crueles impulsadas por el dolor y la venganza.',
+      },
+      {
+        name: 'La esposa del rey',
+        description:
+          'Su infidelidad desencadena la desconfianza y la ira de Shahriar, dando inicio al conflicto.',
+      },
+      {
+        name: 'Las jóvenes del reino',
+        description:
+          'Mujeres inocentes que sufren las consecuencias de las decisiones del rey, convirtiéndose en víctimas de su venganza.',
+      },
+      {
+        name: 'Scherezada',
+        description:
+          'Joven inteligente y valiente que decide casarse con Shahriar para intentar detener las ejecuciones mediante el poder de sus historias.',
+      },
+    ],
+    summary: [
+      'El rey Shahriar descubre la infidelidad de su esposa y, consumido por la ira y el desengaño, decide casarse cada noche con una virgen diferente y mandar a ejecutarla al amanecer para asegurarse de que no puedan traicionarlo.',
+    ],
+    lessons: [
+      '**La venganza no soluciona los problemas.** Actuar desde el enojo y el resentimiento puede provocar consecuencias terribles, especialmente cuando se lastima a personas inocentes.',
+      '**No debemos juzgar a todos por las acciones de una persona.** Una traición no significa que todas las personas sean iguales. Es importante aprender a distinguir las acciones individuales.',
+      '**La inteligencia y el diálogo pueden vencer a la violencia.** Scherezada demuestra que las palabras, la creatividad y la sabiduría pueden convertirse en herramientas para transformar situaciones difíciles.',
+    ],
+    audio:
+      '/audio/ElevenLabs_2026-11-09T01_13_57_Roger - Laid-Back, Casual, Resonant_pre_s50_sim75_v4.mp3',
+    illustration: '/ilustraciones/images (1).jpg',
+    illustrationAlt: 'Portada de Las mil y una noches, de Editorial Planeta.',
+    illustrations: [
+      {
+        src: '/ilustraciones/images (2).jpg',
+        alt: 'Portada ilustrada de Las mil y una noches, edición de Editors.',
+        caption: 'Otra edición ilustrada de Las mil y una noches.',
+      },
+    ],
+    sources: [],
+    shop: '',
+    shopLinks: [],
   },
   {
     slug: 'el-visir-del-rey-yunan-y-el-medico-ruyan',
