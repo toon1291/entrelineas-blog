@@ -403,6 +403,88 @@ export const stories: Story[] = [
     shop: '',
     shopLinks: [],
   },
+  {
+    slug: 'historia-del-joven-encantado-y-de-los-peces',
+    title: 'Historia del joven encantado y de los peces',
+    originalTitle:
+      'Histoire du jeune homme ensorcelé et des poissons (versión de J. C. Mardrus).',
+    collection: 'Las mil y una noches',
+    literaryAuthor: 'Anónimo',
+    written: 'Fecha de composición desconocida',
+    authorId: 'diego',
+    publishedAt: '2026-11-09',
+    plannedDate: '2026-11-09',
+    status: 'published',
+    excerpt:
+      'Cuatro peces de colores llevan a un rey hasta un palacio solitario. Allí, un joven convertido en piedra de la cintura para abajo le cuenta cómo una ciudad entera desapareció bajo el agua.',
+    characters: [
+      {
+        name: 'El joven rey de las Islas Negras',
+        description:
+          'Su esposa lo hechiza y lo deja inmóvil de la cintura para abajo.',
+      },
+      {
+        name: 'El rey visitante',
+        description:
+          'Investiga de dónde vienen los peces y ayuda al joven a recuperar su libertad.',
+      },
+      {
+        name: 'La reina hechicera',
+        description:
+          'Esposa del joven rey. Usa su magia contra él y contra los habitantes de la ciudad.',
+      },
+      {
+        name: 'El pescador',
+        description:
+          'Lleva al palacio los peces de colores que ponen en marcha la investigación.',
+      },
+    ],
+    summary: [
+      'Un pescador lleva al palacio cuatro peces de distintos colores. Cuando el rey se entera de lo que sucede al cocinarlos y comprueba que los peces pueden hablar, decide investigar su origen. Su búsqueda lo lleva de un lago rodeado de montañas a un palacio donde encuentra a un joven que no puede levantarse.',
+      'El joven le cuenta que gobernaba las Islas Negras. Al descubrir que su esposa lo adormecía para salir a escondidas, la siguió e hirió al hombre con quien ella se encontraba. En represalia, la reina convirtió en piedra la mitad inferior del cuerpo del joven, transformó la ciudad en un lago y convirtió a sus habitantes en peces.',
+      'El rey visitante se hace pasar por el hombre herido y convence a la hechicera de que deshaga los encantamientos. El joven recupera la movilidad, los peces vuelven a ser personas y las montañas recobran su forma de islas. Al final, el rey adopta al joven como hijo y recompensa al pescador por haberlo llevado hasta el misterio.',
+    ],
+    lessons: [
+      'Investiga antes de sacar conclusiones. El rey escucha al pescador y busca el origen de los peces. Ese detalle extraño lo lleva a descubrir lo que le ocurrió a la ciudad.',
+      'La venganza puede dañar a quienes no participaron en el conflicto. La hechicera extiende su castigo a toda una población por una disputa personal.',
+      'Escuchar puede ser el primer paso para ayudar. El rey entiende cómo intervenir después de oír la historia del joven.',
+    ],
+    audio: '/audio/joven-encantado-y-de-los-peces-ultima-toma.mp3',
+    illustration: '/ilustraciones/joven-encantado-conversacion.jpg',
+    illustrationAlt:
+      'El joven rey yace recostado entre dos mujeres que sostienen abanicos de plumas.',
+    illustrations: [
+      {
+        src: '/ilustraciones/joven-encantado-conversacion.jpg',
+        alt: 'El joven rey yace recostado entre dos mujeres que sostienen abanicos de plumas.',
+        caption:
+          'El joven rey escucha una conversación. Ilustración de Thomas Dalziel, digitalizada por George P. Landow para The Victorian Web.',
+      },
+      {
+        src: '/ilustraciones/joven-encantado-liberacion.jpg',
+        alt: 'Dos hombres se encuentran de pie junto a la entrada de una habitación.',
+        caption:
+          'El joven rey, libre del encantamiento. Ilustración de Thomas Dalziel, digitalizada por George P. Landow para The Victorian Web.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Leer el cuento en español — Wikisource',
+        url: 'https://es.wikisource.org/wiki/Historia_del_joven_encantado_y_de_los_peces',
+      },
+      {
+        label: 'Créditos de la imagen: El joven rey escucha una conversación — The Victorian Web',
+        url: 'https://victorianweb.org/art/illustration/dalziel/2.html',
+      },
+      {
+        label: 'Créditos de la imagen: El joven rey, libre del encantamiento — The Victorian Web',
+        url: 'https://victorianweb.org/art/illustration/dalziel/3.html',
+      },
+    ],
+    shop: 'https://libreriasdeocasion.com.mx/literatura/literatura-universal/novela/el-libro-de-las-mil-noches-y-una-noche-11196.html',
+    shopLabel: 'El libro de las mil noches y una noche — Librerías de Ocasión, Ciudad de México',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
