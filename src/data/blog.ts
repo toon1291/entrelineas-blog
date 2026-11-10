@@ -470,7 +470,7 @@ export const stories: Story[] = [
     sources: [
       {
         label: 'Leer el cuento en español — Wikisource',
-        url: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p?srsltid=AYCX9vJu17QNcuK5h-nLAoBWW1DbXPTaTILq__nw3RHTMvs_O5w5zAlf',
+        url: 'https://es.wikisource.org/wiki/Historia_del_joven_encantado_y_de_los_peces',
       },
       {
         label: 'Créditos de la imagen: El joven rey escucha una conversación — The Victorian Web',
@@ -481,8 +481,8 @@ export const stories: Story[] = [
         url: 'https://victorianweb.org/art/illustration/dalziel/3.html',
       },
     ],
-    shop: 'https://libreriasdeocasion.com.mx/literatura/literatura-universal/novela/el-libro-de-las-mil-noches-y-una-noche-11196.html',
-    shopLabel: 'El libro de las mil noches y una noche — Librerías de Ocasión, Ciudad de México',
+    shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p?srsltid=AYCX9vJu17QNcuK5h-nLAoBWW1DbXPTaTILq__nw3RHTMvs_O5w5zAlf',
+    shopLabel: 'El libro de las mil noches y una noche — Librerías GANDHI',
     shopLinks: [],
   },
 ];
