@@ -470,7 +470,7 @@ export const stories: Story[] = [
     sources: [
       {
         label: 'Leer el cuento en español — Wikisource',
-        url: 'https://es.wikisource.org/wiki/Historia_del_joven_encantado_y_de_los_peces',
+        url: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p?srsltid=AYCX9vJu17QNcuK5h-nLAoBWW1DbXPTaTILq__nw3RHTMvs_O5w5zAlf',
       },
       {
         label: 'Créditos de la imagen: El joven rey escucha una conversación — The Victorian Web',
