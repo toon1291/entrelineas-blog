@@ -485,6 +485,95 @@ export const stories: Story[] = [
     shopLabel: 'El libro de las mil noches y una noche — Librerías GANDHI',
     shopLinks: [],
   },
+  {
+    slug: 'el-mandadero-y-las-tres-doncellas',
+    title: 'El mandadero y las tres doncellas',
+    originalTitle:
+      'حكاية الحمال مع البنات الثلاث (Ḥikāyat al-ḥammāl maʿa al-banāt al-thalāth)',
+    spanishName: 'El mandadero y las tres doncellas',
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+    literaryAuthor:
+      'Anónimo, perteneciente a la tradición narrativa árabe.',
+    written:
+      'Fecha exacta desconocida. Relato de tradición medieval transmitido y reelaborado durante siglos.',
+    authorId: 'ismael',
+    publishedAt: '2026-11-10',
+    plannedDate: '2026-11-10',
+    status: 'published',
+    excerpt:
+      'Una velada en Bagdad reúne a un mandadero, tres doncellas, tres viajeros y visitantes que ocultan su identidad. Cada historia revela un secreto distinto.',
+    characters: [
+      {
+        name: 'El mandadero de Bagdad',
+        description:
+          'Trabajador humilde que es invitado a una residencia y participa en una velada llena de misterios.',
+      },
+      {
+        name: 'Las tres doncellas',
+        description:
+          'Anfitrionas que establecen una condición para compartir su casa y guardan historias de sufrimiento.',
+      },
+      {
+        name: 'Los tres calendarios o derviches',
+        description:
+          'Viajeros que han perdido un ojo y deben contar sus extraordinarias historias.',
+      },
+      {
+        name: 'Harún al-Rashid, Giafar y Masrur',
+        description:
+          'Visitantes que ocultan sus identidades y ayudan a conocer la verdad de los conflictos.',
+      },
+    ],
+    summary: [
+      'En la ciudad de Bagdad, un humilde mandadero es contratado por una joven para transportar numerosas compras hasta una elegante residencia. Allí descubre que viven tres doncellas, quienes lo invitan a compartir una comida y una velada con una condición: no debe preguntar sobre asuntos que no le conciernen.',
+      'Durante la reunión llegan tres calendarios, hombres viajeros que han perdido un ojo, y posteriormente tres visitantes que ocultan sus identidades: el califa Harún al-Rashid y sus acompañantes. La noche transcurre entre conversaciones, música y acontecimientos misteriosos.',
+      'Los invitados presencian situaciones desconcertantes, entre ellas el castigo de dos perras negras y las señales de sufrimiento de una de las doncellas. Cuando la curiosidad provoca que incumplan la condición establecida, las mujeres reaccionan con severidad.',
+      'Para evitar el castigo, los visitantes deben contar sus extraordinarias historias. Poco a poco se revelan secretos relacionados con viajes, traiciones, encantamientos y sufrimientos personales. Finalmente, el califa interviene para conocer la verdad y contribuir a resolver los conflictos.',
+    ],
+    lessons: [
+      'Respetar los límites y la privacidad de los demás. La curiosidad excesiva puede provocar conflictos cuando se incumplen acuerdos o se hacen preguntas sobre asuntos personales.',
+      'No juzgar sin conocer toda la historia. Las acciones de las doncellas parecen incomprensibles al principio, pero sus experiencias permiten entender mejor sus comportamientos.',
+      'Reconocer el valor de la verdad y la empatía. Escuchar las experiencias ajenas ayuda a comprender el sufrimiento, superar prejuicios y buscar soluciones justas.',
+    ],
+    audio:
+      '/audio/el-mandadero-y-las-tres-doncellas.mp3',
+    illustration:
+      '/ilustraciones/el-mandadero-y-las-tres-doncellas.jpg',
+    illustrationAlt:
+      'El mandadero llega a la casa de las tres doncellas.',
+    illustrations: [
+      {
+        src: '/ilustraciones/el-mandadero-y-las-tres-doncellas.jpg',
+        alt: 'El mandadero llega a la casa donde se encuentran las tres doncellas.',
+        caption: 'El mandadero y las tres doncellas.',
+      },
+      {
+        src: '/ilustraciones/el-mandadero-y-las-tres-doncellas2.jpg',
+        alt: 'El mandadero y otros personajes conversan en un jardín con fuente.',
+        caption: 'La reunión en el jardín.',
+      },
+      {
+        src: '/ilustraciones/el-mandadero-y-las-tres-doncellas (1).jpg',
+        alt: 'El mandadero se encuentra con las tres doncellas durante su viaje.',
+        caption: 'El encuentro del mandadero con las doncellas.',
+      },
+    ],
+    sources: [
+      {
+        label:
+          'Project Gutenberg — The Porter and the Three Ladies of Baghdad, traducción de Richard F. Burton',
+        url: 'https://www.gutenberg.org/files/3435/3435-h/3435-h.htm',
+      },
+    ],
+    contentNote:
+      'Las tres ilustraciones son propias de Ismael. La fecha de publicación real aún no está confirmada; 2026-11-10 es únicamente el turno previsto.',
+    shop:
+      'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+    shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
