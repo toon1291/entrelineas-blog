@@ -574,6 +574,92 @@ export const stories: Story[] = [
     shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
     shopLinks: [],
   },
+  {
+    slug: 'historia-de-zobeida-la-mayor-de-las-jovenes',
+    title: 'Historia de Zobeida, la mayor de las jóvenes',
+    originalTitle:
+      'No se identifica un título árabe único y estandarizado para este relato en las fuentes consultadas.',
+    spanishName: 'Historia de Zobeida, la mayor de las jóvenes',
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+    literaryAuthor: 'Anónimo.',
+    written: 'Edad Media; fecha exacta desconocida.',
+    authorId: 'oliver',
+    publishedAt: '2026-11-11',
+    plannedDate: '2026-11-11',
+    status: 'published',
+    excerpt:
+      'Zobeida recibe a sus hermanas después de sus pérdidas, pero un viaje, los celos y un encantamiento revelan el origen de un castigo misterioso.',
+    characters: [
+      {
+        name: 'Zobeida',
+        description:
+          'Joven de Bagdad que administra su herencia, ayuda a sus hermanas y sobrevive a sus traiciones.',
+      },
+      {
+        name: 'Las dos hermanas de Zobeida',
+        description:
+          'Hermanas que, movidas por los celos, traicionan a Zobeida y reciben un castigo sobrenatural.',
+      },
+      {
+        name: 'El joven príncipe',
+        description:
+          'Príncipe encantado que Zobeida encuentra en una ciudad misteriosa y lleva consigo hacia Bagdad.',
+      },
+      {
+        name: 'La efrita',
+        description:
+          'Ser sobrenatural que salva a Zobeida y transforma a sus hermanas en dos perras negras.',
+      },
+      {
+        name: 'El califa Harún al-Rashid',
+        description:
+          'Interviene para conocer la verdad y ayuda a resolver el conflicto.',
+      },
+    ],
+    summary: [
+      'Zobeida es una joven de Bagdad que, tras la muerte de su padre, recibe una herencia y aumenta su fortuna mediante el comercio. Cuando sus hermanas son abandonadas después de perder sus riquezas, Zobeida las recibe en su hogar y comparte generosamente sus bienes.',
+      'Tiempo después, Zobeida emprende un viaje comercial en barco acompañada por sus hermanas. Durante la travesía llegan a una ciudad misteriosa cuyos habitantes han sido transformados en estatuas de piedra negra. En un palacio, Zobeida encuentra a un joven príncipe que ha sobrevivido al encantamiento gracias a su fe.',
+      'Zobeida se enamora del príncipe y lo invita a regresar con ella a Bagdad. Sin embargo, sus hermanas sienten celos y, durante el viaje de regreso, arrojan a ambos al mar. El príncipe muere ahogado, pero Zobeida sobrevive y llega a una isla.',
+      'En la isla, Zobeida salva a una serpiente que está siendo atacada. La criatura revela que es una efrita y, en agradecimiento, castiga a las hermanas traidoras convirtiéndolas en dos perras negras. La efrita obliga a Zobeida a azotarlas diariamente, aunque ella sigue sintiendo compasión por sus hermanas. Más adelante, el califa interviene para conseguir que recuperen su forma humana.',
+    ],
+    lessons: [
+      'La generosidad debe acompañarse de prudencia. Zobeida ayuda repetidamente a sus hermanas, pero su confianza no impide que ellas la traicionen.',
+      'La envidia puede destruir las relaciones familiares. Los celos de las hermanas provocan una tragedia y terminan convirtiéndose en la causa de su propio castigo.',
+      'La compasión puede mantenerse incluso frente al daño recibido. A pesar de la traición, Zobeida sigue sintiendo afecto por sus hermanas y sufre al tener que castigarlas.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/zobeida.jpg',
+    illustrationAlt:
+      'Zobeida, la mayor de las jóvenes. Ilustración de Charles Walker Collectios.',
+    illustrations: [
+      {
+        src: '/ilustraciones/zobeida.jpg',
+        alt: 'Zobeida, la mayor de las jóvenes, en una escena del relato.',
+        caption:
+          'Zobeida, la mayor de las jóvenes. Ilustración de Charles Walker Collectios.',
+      },
+    ],
+    sources: [
+      {
+        label:
+          'Biblioteca Virtual Antorcha — Historia de Zobeida, la mayor de las jóvenes',
+        url: 'https://antorcha.net/biblioteca_virtual/literatura/mil/17.html',
+      },
+      {
+        label:
+          'Proyecto Gutenberg — Las mil noches y una noche, tomo I',
+        url: 'https://www.gutenberg.org/files/47287/47287-h/47287-h.htm',
+      },
+    ],
+    contentNote:
+      'Publicación realizada el 11 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+    shop:
+      'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+    shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
