@@ -105,6 +105,12 @@ export default async function StoryPage({
               <b>Año de escritura:</b> {story.written}
             </p>
 
+            {story.genre && (
+              <p>
+                <b>Género literario:</b> {story.genre}
+              </p>
+            )}
+
             <h2>El relato, en pocas palabras</h2>
 
             {story.summary.map((paragraph, index) => (

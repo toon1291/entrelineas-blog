@@ -56,6 +56,7 @@ export interface Story {
   spanishName?: string;
   collection: string;
   collectionDetail?: string;
+  genre?: string;
   literaryAuthor: string;
   written: string;
   authorId: string;
@@ -659,6 +660,139 @@ export const stories: Story[] = [
       'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
     shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
     shopLinks: [],
+  },
+  {
+    slug: 'historia-de-la-mujer-despedazada-las-tres-manzanas-y-el-negro-rihan',
+    title:
+      'Historia de la mujer despedazada, las tres manzanas y el negro Rihán',
+    originalTitle:
+      'El relato forma parte de Alf layla wa-layla (Las mil y una noches). Se conoce en distintas traducciones como «El cuento de las tres manzanas».',
+    spanishName:
+      'Historia de la mujer despedazada, las tres manzanas y el negro Rihán.',
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Las mil y una noches, una recopilación de relatos tradicionales de origen árabe, persa e indio.',
+    genre: 'Narrativo, cuento de misterio y tragedia.',
+    literaryAuthor: 'Anónimo.',
+    written:
+      'Fecha exacta desconocida. Pertenece a la tradición medieval de relatos que conforman la colección.',
+    authorId: 'oscar',
+    publishedAt: '2026-11-12',
+    plannedDate: '2026-11-12',
+    status: 'published',
+    excerpt:
+      'Un misterioso cofre encontrado en el río Tigris revela un terrible crimen que lleva al califa\nHarún al-Rashid a investigar una historia marcada por el amor, los celos, la desconfianza y las consecuencias de una mentira.',
+    characters: [
+      {
+        name: 'El califa Harún al-Rashid',
+        description:
+          'Gobernante de Bagdad que descubre el cuerpo de la mujer y exige encontrar al responsable del asesinato. Representa la autoridad y la búsqueda de justicia.',
+      },
+      {
+        name: 'Giafar, el visir',
+        description:
+          'Consejero del califa, encargado de investigar el crimen y descubrir la identidad de los responsables.',
+      },
+      {
+        name: 'La mujer asesinada',
+        description:
+          'Esposa del joven comerciante y madre de tres hijos. Su deseo de comer manzanas desencadena los acontecimientos y la convierte en víctima de una acusación falsa.',
+      },
+      {
+        name: 'El joven esposo',
+        description:
+          'Viaja hasta Basora para conseguir las manzanas. Sus celos y desconfianza lo llevan a cometer un asesinato del que después se arrepiente.',
+      },
+      {
+        name: 'El negro Rihán',
+        description:
+          'Esclavo que obtiene una de las manzanas y cuenta una historia falsa sobre su procedencia, provocando los celos del esposo.',
+      },
+      {
+        name: 'El hijo del matrimonio',
+        description:
+          'Niño que toma una de las manzanas y explica lo sucedido, permitiendo descubrir que su madre era inocente.',
+      },
+      {
+        name: 'El anciano',
+        description:
+          'Padre de la mujer asesinada, quien se presenta ante el califa e intenta asumir la responsabilidad del crimen.',
+      },
+      {
+        name: 'El pescador',
+        description:
+          'Hombre humilde que encuentra el cofre en el río Tigris y da inicio a la investigación.',
+      },
+    ],
+    summary: [
+      'La historia comienza en Bagdad, cuando el califa Harún al-Rashid recorre la ciudad acompañado de su visir Giafar y otros miembros de su corte. Encuentran a un pescador que se lamenta de su mala fortuna. El califa le ofrece una recompensa a cambio de lanzar nuevamente sus redes al río Tigris, y el pescador consigue sacar un pesado cofre cerrado. Al abrirlo, descubren el cuerpo despedazado de una mujer, cuidadosamente envuelto y oculto en su interior.',
+      'Indignado por el asesinato, el califa ordena a Giafar encontrar al responsable del crimen. Le concede tres días para resolver el misterio y lo amenaza con castigarlo si fracasa. Cuando el plazo está por terminar, aparecen un joven y un anciano que aseguran ser responsables de la muerte. Finalmente, el joven comienza a contar lo sucedido.',
+      'El muchacho explica que la mujer era su esposa, a quien amaba profundamente y con quien tenía tres hijos. Cuando ella enfermó, expresó el deseo de comer una manzana. Como no había manzanas en Bagdad, su esposo viajó hasta Basora, compró tres y regresó a su hogar para entregárselas.',
+      'Días después, encontró a un esclavo negro que llevaba una manzana. Al preguntarle de dónde la había obtenido, el hombre respondió que se la había regalado su amante, cuyo esposo había viajado hasta Basora para conseguir tres manzanas. Dominado por los celos y sin comprobar la historia, el joven creyó que su esposa lo había traicionado, la asesinó y ocultó su cuerpo en un cofre que arrojó al Tigris.',
+      'Más tarde, uno de sus hijos confesó que había tomado una de las manzanas y que un esclavo se la había arrebatado en la calle. El hombre comprendió que su esposa era inocente y que había cometido una injusticia por creer a un desconocido. Arrepentido, confesó ante el califa. La investigación conduce finalmente hasta Rihán, un esclavo relacionado con la casa del visir.',
+      'El relato muestra cómo una mentira aparentemente insignificante puede desencadenar una tragedia irreparable. También presenta la importancia de investigar los hechos antes de juzgar y las consecuencias de permitir que las emociones dominen la razón.',
+    ],
+    lessons: [
+      'Los celos pueden provocar consecuencias irreparables. El esposo permite que sus sospechas dominen sus decisiones y termina asesinando a una mujer inocente.',
+      'Una mentira puede causar daños mayores de lo imaginado. La historia inventada sobre la manzana desencadena una serie de acontecimientos que terminan en tragedia.',
+      'La verdad debe buscarse antes de juzgar. Es importante investigar, escuchar y comprobar los hechos antes de acusar a alguien.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/portada-tres-manzanas.png',
+    illustrationAlt:
+      'Mujer retratada en la entrada de una casa, ilustración para el cuento de las tres manzanas.',
+    illustrations: [
+      {
+        src: '/ilustraciones/tres-manzanas-ilustracion-1.png',
+        alt: 'Escena de un palacio con un gobernante, una bailarina y una mujer sentada.',
+        caption:
+          'Una escena de palacio, con personajes reunidos durante la narración.',
+      },
+      {
+        src: '/ilustraciones/tres-manzanas-ilustracion-2.png',
+        alt: 'Una mujer conversa con un gobernante en un palacio iluminado por la noche.',
+        caption:
+          'Una conversación nocturna entre una mujer y un gobernante.',
+      },
+      {
+        src: '/ilustraciones/tres-manzanas-ilustracion-3.png',
+        alt: 'Varias personas se reúnen alrededor de una mesa en una escena antigua.',
+        caption:
+          'Personajes reunidos alrededor de una mesa mientras se desarrolla la historia.',
+      },
+      {
+        src: '/ilustraciones/tres-manzanas-ilustracion-4.png',
+        alt: 'Un hombre vestido con prendas rojas huye de una escena en una cueva.',
+        caption:
+          'Un hombre escapa de una cueva mientras lleva consigo un objeto valioso.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Proyecto Gutenberg — Las mil noches y una noche, tomo I',
+        url: 'https://www.gutenberg.org/files/47287/47287-h/47287-h.htm',
+      },
+      {
+        label: 'Wikipedia — El cuento de las tres manzanas',
+        url: 'https://es.wikipedia.org/wiki/El_cuento_de_las_tres_manzanas',
+      },
+      {
+        label:
+          'Proyecto Gutenberg — The Book of the Thousand Nights and a Night',
+        url: 'https://www.gutenberg.org/ebooks/3435',
+      },
+    ],
+    contentNote:
+      'Publicación realizada el 12 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+    shop:
+      'https://www.libreriadante.com.mx/product-page/las-mil-y-una-noches-para-niños?utm_source=chatgpt.com',
+    shopLabel: 'Librería Dante',
+    shopLinks: [
+      {
+        label: 'Akal',
+        url: 'https://www.akal.mx/libro/sherezade-y-las-mil-y-una-noches_44639/?utm_source=chatgpt.com',
+      },
+    ],
   },
 ];
 
