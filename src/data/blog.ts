@@ -405,6 +405,102 @@ export const stories: Story[] = [
     shopLinks: [],
   },
   {
+    slug: 'el-visir-nureddin-su-hermano-chamseddin-y-hassan-badreddin',
+    title:
+      'El visir Nureddin, de su hermano el visir Chamseddin y de Hassán Badreddin',
+    originalTitle:
+      'Título original en árabe no confirmado; se utiliza el título de la versión española consultada.',
+    collection: 'Las mil y una noches',
+    literaryAuthor: 'Anónimo',
+    written: 'Fecha de composición desconocida',
+    authorId: 'dario',
+    publishedAt: null,
+    plannedDate: '2026-11-13',
+    status: 'draft',
+    excerpt:
+      'Dos hermanos visires se separan después de una discusión. Años más tarde, las aventuras de Hassán Badreddin y una serie de encuentros inesperados conducen al reencuentro de su familia.',
+    characters: [
+      {
+        name: 'Nureddin',
+        description:
+          'Hermano menor de Chamseddin, quien abandona Egipto después de una discusión con su hermano. Posteriormente se casa con la hija del visir de Basora y tiene un hijo llamado Hassán Badreddin.',
+      },
+      {
+        name: 'Chamseddin',
+        description:
+          'Hermano mayor de Nureddin y visir de Egipto. Es padre de Sett El-Hosn.',
+      },
+      {
+        name: 'Hassán Badreddin',
+        description:
+          'Hijo de Nureddin y de la hija del visir de Basora. Esposo de Sett El-Hosn y padre de Agib.',
+      },
+      {
+        name: 'Sett El-Hosn',
+        description:
+          'Hija de Chamseddin y esposa de Hassán Badreddin.',
+      },
+      {
+        name: 'Agib',
+        description:
+          'Hijo de Hassán Badreddin y Sett El-Hosn.',
+      },
+      {
+        name: 'Visir de Basora',
+        description:
+          'Padre de la esposa de Nureddin y suegro de este.',
+      },
+      {
+        name: 'Sultán de Egipto',
+        description:
+          'Gobernante para quien trabajan los dos hermanos.',
+      },
+    ],
+    summary: [
+      'Dos hermanos llamados Chamseddin y Nureddin trabajan como visires del sultán de Egipto. Después de una discusión sobre el posible matrimonio de sus hijos, Chamseddin humilla a su hermano menor. Herido por sus palabras, Nureddin abandona Egipto y viaja hasta Basora.',
+      'En Basora, Nureddin es recibido por el visir de aquella ciudad y termina casándose con su hija. De esa unión nace Hassán Badreddin, un joven reconocido por su belleza e inteligencia. Mientras tanto, Chamseddin tiene una hija llamada Sett El-Hosn.',
+      'Cuando Nureddin muere, Hassán queda solo y emprende un viaje que lo lleva a vivir una serie de acontecimientos extraordinarios. Después de una noche llena de sucesos inesperados, es separado de Sett El-Hosn y termina en Damasco, donde comienza una nueva vida como pastelero.',
+      'Tiempo después, Hassán se encuentra con Agib, su propio hijo, aunque ninguno de los dos conoce inicialmente su parentesco. Este encuentro permite que Chamseddin descubra la identidad de su sobrino y comience a buscar a Hassán. Finalmente, Hassán se reúne con su madre, su esposa, su hijo y su tío. La familia vuelve a encontrarse después de años de separación.',
+    ],
+    lessons: [
+      'Debemos cuidar nuestras palabras y acciones: una discusión y las palabras hirientes pueden provocar separaciones y sufrimiento entre familiares.',
+      'La familia y los lazos de unión son importantes: el cariño familiar puede permanecer incluso cuando las personas están lejos y atraviesan dificultades.',
+      'No debemos perder la esperanza ante las adversidades: aunque Hassán enfrenta pérdidas y separaciones, finalmente logra reencontrarse con sus seres queridos.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/nureddin-portada.jpg',
+    illustrationAlt: 'Portada ilustrada del cuento.',
+    illustrations: [
+      {
+        src: '/ilustraciones/nureddin-portada.jpg',
+        alt: 'Portada con una figura femenina en un entorno vegetal y un ave blanca.',
+        caption: 'Portada del cuento.',
+      },
+      {
+        src: '/ilustraciones/nureddin-visir-presentacion.jpg',
+        alt: 'Escena de un hombre realizando una reverencia ante tres mujeres en un jardín.',
+        caption: 'Escena ilustrada en un jardín.',
+      },
+      {
+        src: '/ilustraciones/nureddin-ilustracion-bn.jpg',
+        alt: 'Ilustración en blanco y negro de ambiente oriental.',
+        caption: 'Ilustración en blanco y negro del relato.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Ciudad Seva',
+        url: 'https://ciudadseva.com/texto/las-mil-y-una-noches-06/',
+      },
+      {
+        label: 'Project Gutenberg',
+        url: 'https://www.gutenberg.org/files/47631/47631-h/47631-h.htm',
+      },
+    ],
+    shop: '',
+    shopLinks: [],
+  },
+  {
     slug: 'historia-del-joven-encantado-y-de-los-peces',
     title: 'Historia del joven encantado y de los peces',
     originalTitle:
