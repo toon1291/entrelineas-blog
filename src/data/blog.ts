@@ -414,9 +414,9 @@ export const stories: Story[] = [
     literaryAuthor: 'Anónimo',
     written: 'Fecha de composición desconocida',
     authorId: 'dario',
-    publishedAt: null,
+    publishedAt: '2026-11-13',
     plannedDate: '2026-11-13',
-    status: 'draft',
+    status: 'published',
     excerpt:
       'Dos hermanos visires se separan después de una discusión. Años más tarde, las aventuras de Hassán Badreddin y una serie de encuentros inesperados conducen al reencuentro de su familia.',
     characters: [
@@ -467,7 +467,7 @@ export const stories: Story[] = [
       'La familia y los lazos de unión son importantes: el cariño familiar puede permanecer incluso cuando las personas están lejos y atraviesan dificultades.',
       'No debemos perder la esperanza ante las adversidades: aunque Hassán enfrenta pérdidas y separaciones, finalmente logra reencontrarse con sus seres queridos.',
     ],
-    audio: null,
+    audio: '/audio/nureddin-hassan.mp3',
     illustration: '/ilustraciones/nureddin-portada.jpg',
     illustrationAlt: 'Portada ilustrada del cuento.',
     illustrations: [
