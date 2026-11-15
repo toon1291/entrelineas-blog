@@ -966,6 +966,16 @@ export const stories: Story[] = [
       alt: 'Representación artística del rey Omar al Neman.',
       caption: 'El rey Omar al Neman.',
     },
+     {
+    src: '/ilustraciones/scharkan.jpg',
+    alt: 'El príncipe Scharkan durante sus aventuras.',
+    caption: 'Scharkan, hijo de Omar al Neman.',
+  },
+  {
+    src: '/ilustraciones/daul-makan.jpg',
+    alt: 'Daul Makan reflexiona sobre el destino de su reino.',
+    caption: 'Daul Makan, heredero del reino.',
+  },
   ],
 
   sources: [
