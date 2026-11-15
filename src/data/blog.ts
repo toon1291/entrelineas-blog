@@ -890,6 +890,105 @@ export const stories: Story[] = [
       },
     ],
   },
+  {
+  slug: 'el-rey-omar-al-neman-y-sus-dos-hijos',
+  title: 'El rey Omar al Neman y sus dos hijos Scharkan y Daul Makan',
+  originalTitle:
+    'Título original en árabe no verificado para la edición consultada.',
+  collection: 'Las mil y una noches',
+  literaryAuthor:
+    'Anónimo — tradición narrativa de Las mil y una noches.',
+  written:
+    'Fecha exacta desconocida; relato perteneciente a la tradición medieval de la colección.',
+  authorId: 'elizabeth',
+  publishedAt: '2026-11-14',
+  plannedDate: '2026-11-14',
+  status: 'published',
+
+  excerpt:
+    'La historia de un poderoso rey, sus hijos y una serie de conflictos, viajes y encuentros que ponen a prueba la lealtad, el amor y el destino.',
+
+  characters: [
+    {
+      name: 'Omar al Neman',
+      description:
+        'Rey poderoso cuyo linaje da origen a las aventuras principales del relato.',
+    },
+    {
+      name: 'Scharkan',
+      description:
+        'Príncipe valiente y hábil guerrero que vive importantes aventuras y conflictos.',
+    },
+    {
+      name: 'Daul Makan',
+      description:
+        'Hijo del rey Omar al Neman que enfrenta desafíos relacionados con la política y el destino de su reino.',
+    },
+    {
+      name: 'Nuzhat al-Zaman',
+      description:
+        'Hermana de Daul Makan, protagonista de diversos acontecimientos del relato.',
+    },
+    {
+      name: 'Abriza',
+      description:
+        'Princesa cristiana cuya historia se relaciona estrechamente con Scharkan.',
+    },
+  ],
+
+  summary: [
+    'El rey Omar al Neman gobierna un gran reino y tiene dos hijos destacados: Scharkan y Daul Makan. Ambos crecen rodeados de privilegios, pero pronto deberán enfrentarse a situaciones que pondrán a prueba su carácter.',
+
+    'Scharkan participa en campañas militares y conoce a Abriza, una princesa cristiana de gran inteligencia y nobleza. Entre ambos surge una relación marcada por el respeto y la admiración.',
+
+    'Mientras tanto, Daul Makan y su hermana Nuzhat al-Zaman enfrentan conflictos políticos, viajes y peligros que afectan su futuro. Las intrigas, alianzas y enfrentamientos modifican el destino de varias familias y reinos.',
+
+    'A través de numerosas aventuras, los personajes descubren el valor de la lealtad, la justicia y la perseverancia. El relato muestra cómo las decisiones personales pueden influir en el destino de muchas personas.',
+  ],
+
+  lessons: [
+    'La lealtad y el honor fortalecen las relaciones entre las personas y ayudan a enfrentar las dificultades.',
+
+    'Las decisiones impulsivas pueden provocar consecuencias inesperadas; por ello es importante reflexionar antes de actuar.',
+
+    'La perseverancia permite superar los obstáculos y afrontar los cambios que trae la vida.',
+  ],
+
+  audio: null,
+
+  illustration: '/ilustraciones/omar-al-neman.jpg',
+  illustrationAlt:
+    'Representación artística del rey Omar al Neman y sus hijos.',
+
+  illustrations: [
+    {
+      src: '/ilustraciones/omar-al-neman.jpg',
+      alt: 'Representación artística del rey Omar al Neman.',
+      caption: 'El rey Omar al Neman.',
+    },
+  ],
+
+  sources: [
+    {
+      label: 'Ciudad Seva — Las mil y una noches',
+      url: 'https://ciudadseva.com/texto/las-mil-y-una-noches/',
+    },
+    {
+      label: 'Project Gutenberg — Arabian Nights',
+      url: 'https://www.gutenberg.org/',
+    },
+  ],
+
+  contentNote:
+    'El relato incluye conflictos bélicos, intrigas políticas y enfrentamientos. El resumen evita detalles gráficos.',
+
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p',
+
+  shopLabel: 'Comprar en Librerías Gandhi',
+
+  shopLinks: [],
+},
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
