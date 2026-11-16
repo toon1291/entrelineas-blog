@@ -726,7 +726,7 @@ export const stories: Story[] = [
       'La envidia puede destruir las relaciones familiares. Los celos de las hermanas provocan una tragedia y terminan convirtiéndose en la causa de su propio castigo.',
       'La compasión puede mantenerse incluso frente al daño recibido. A pesar de la traición, Zobeida sigue sintiendo afecto por sus hermanas y sufre al tener que castigarlas.',
     ],
-    audio: null,
+    audio: '/audio/Zobeida.mp3',
     illustration: '/ilustraciones/zobeida.jpg',
     illustrationAlt:
       'Zobeida, la mayor de las jóvenes. Ilustración de Charles Walker Collectios.',
@@ -751,7 +751,7 @@ export const stories: Story[] = [
       },
     ],
     contentNote:
-      'Publicación realizada el 11 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+      'Publicación realizada el 11 de noviembre de 2026. Audio de solo voz incorporado.',
     shop:
       'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
     shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
@@ -997,6 +997,108 @@ export const stories: Story[] = [
 
   shopLabel: 'Comprar en Librerías Gandhi',
 
+  shopLinks: [],
+},
+{
+  slug: 'historia-de-dulce-amiga',
+  title: 'Historia de Dulce-Amiga',
+  originalTitle: 'Historia de Nūr al-Dīn Alí y Anīs al-Jalīs',
+  spanishName: 'Historia de Dulce-Amiga',
+  collection: 'Las mil y una noches',
+  collectionDetail:
+    'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+  literaryAuthor: 'Anónimo.',
+  written: 'Edad Media; fecha exacta de composición desconocida.',
+  authorId: 'ismael',
+  publishedAt: '2026-11-16',
+  plannedDate: '2026-11-16',
+  status: 'published',
+  excerpt:
+    'Dulce-Amiga y Alí-Nur enfrentan la pérdida de la riqueza, la envidia y el abuso de poder sin perder la lealtad ni la esperanza.',
+  characters: [
+    {
+      name: 'Dulce-Amiga (Anīs al-Jalīs)',
+      description:
+        'Joven de gran belleza, inteligencia y talento para la música y la poesía.',
+    },
+    {
+      name: 'Alí-Nur',
+      description:
+        'Hijo del visir El-Faldl. Se enamora de Dulce-Amiga, pero su imprudencia y sus gastos excesivos le provocan dificultades.',
+    },
+    {
+      name: 'El-Faldl ben-Khacán',
+      description:
+        'Visir generoso y respetado, padre de Alí-Nur.',
+    },
+    {
+      name: 'El-Mohín ben-Sauí',
+      description:
+        'Visir envidioso y ambicioso que intenta perjudicar a la familia de Alí-Nur.',
+    },
+    {
+      name: 'Mohammad ben-Soleimán El-Zeiní',
+      description: 'Sultán de Basora.',
+    },
+    {
+      name: 'Harún al-Rashid',
+      description:
+        'Califa de Bagdad que interviene para resolver los conflictos.',
+    },
+    {
+      name: 'Giafar',
+      description:
+        'Visir del califa, encargado de ayudar a Alí-Nur.',
+    },
+    {
+      name: 'El jeique Ibrahim',
+      description:
+        'Guardián de un jardín y un palacio del califa en Bagdad.',
+    },
+  ],
+  summary: [
+    'La historia comienza en Basora, donde el sultán Mohammad ben-Soleimán encarga a su visir El-Faldl que encuentre a una joven extraordinaria por su belleza, inteligencia y buenos modales. El visir adquiere a Dulce-Amiga, una joven esclavizada que destaca por sus conocimientos, su habilidad musical y su carácter amable.',
+    'Mientras permanece en la casa del visir, Dulce-Amiga conoce a Alí-Nur, el hijo de este. Ambos se enamoran y comienzan una relación que provoca un grave problema, pues ella había sido comprada para el sultán. Finalmente, el padre acepta la unión de los jóvenes.',
+    'Durante un tiempo viven felices, pero todo cambia cuando el visir fallece. Alí-Nur hereda una gran fortuna y la desperdicia en fiestas y reuniones con amigos interesados. Cuando pierde sus riquezas, descubre que quienes lo rodeaban por conveniencia lo abandonan.',
+    'Ante la pobreza, Dulce-Amiga propone que la venda para obtener dinero, aunque esto implique separarse. Sin embargo, durante la venta surge un conflicto con el malvado visir El-Mohín ben-Sauí. Alí-Nur se enfrenta a él y debe huir junto con Dulce-Amiga.',
+    'Los jóvenes llegan a Bagdad, donde encuentran refugio en un jardín perteneciente al califa Harún al-Rashid. Allí, la extraordinaria voz de Dulce-Amiga llama la atención del gobernante, quien escucha su historia y decide ayudarlos. La intervención del califa permite que se haga justicia y que Dulce-Amiga y Alí-Nur reciban protección para comenzar una nueva vida.',
+  ],
+  lessons: [
+    'La riqueza debe administrarse con responsabilidad. Alí-Nur pierde su fortuna por gastar sin medida y confiar en personas que solamente se acercaban a él por interés.',
+    'La lealtad se demuestra en los momentos difíciles. Dulce-Amiga permanece junto a Alí-Nur cuando desaparecen el dinero y los privilegios, mientras que sus supuestos amigos lo abandonan.',
+    'La justicia debe estar por encima de la envidia y el abuso de poder. Las acciones del visir El-Mohín muestran el daño que puede causar la ambición, mientras que la intervención del califa permite reparar las injusticias.',
+  ],
+  audio: '/audio/dulce-amiga.mp3',
+  illustration: '/ilustraciones/dulce-amiga.JPG',
+  illustrationAlt:
+    'Dulce-Amiga en una escena del relato. Imagen tomada de Fairytalez.',
+  illustrations: [
+    {
+      src: '/ilustraciones/dulce-amiga.JPG',
+      alt: 'Dulce-Amiga en una escena del relato.',
+      caption:
+        'Dulce-Amiga en una escena del relato. Imagen tomada de Fairytalez.',
+    },
+  ],
+  sources: [
+    {
+      label: 'Wikisource — Historia de Dulce-Amiga',
+      url: 'https://es.wikisource.org/wiki/Historia_de_Dulce-Amiga',
+    },
+    {
+      label: 'Proyecto Gutenberg — Las mil y una noches',
+      url: 'https://www.gutenberg.org/ebooks/48903',
+    },
+    {
+      label: 'Crédito de la imagen — Fairytalez',
+      url: 'https://fairytalez.com/es/arabian-nights/',
+    },
+  ],
+  contentNote:
+    'Publicación realizada el 16 de noviembre de 2026. Audio de solo voz incorporado.',
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+  shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
   shopLinks: [],
 },
 ];
