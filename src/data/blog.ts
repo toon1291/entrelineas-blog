@@ -1112,7 +1112,7 @@ export const stories: Story[] = [
   authorId: 'diego',
   publishedAt: '2026-11-15',
   plannedDate: '2026-11-15',
-  status: 'draft',
+  status: 'published',
   excerpt:
     'Un joven de Bagdad tiene una cita secreta. Antes de salir, pide un afeitado rápido, pero el barbero que llega a su casa tiene otros planes.',
   characters: [
