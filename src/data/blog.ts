@@ -1101,6 +1101,93 @@ export const stories: Story[] = [
   shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
   shopLinks: [],
 },
+{
+  slug: 'historia-del-joven-cojo-con-el-barbero-de-bagdad',
+  title: 'Historia del joven cojo con el barbero de Bagdad',
+  originalTitle:
+    'Histoire du jeune homme boiteux avec le barbier de Baghdad (título de la versión francesa de J. C. Mardrus).',
+  collection: 'Las mil y una noches',
+  literaryAuthor: 'Anónimo',
+  written: 'Desconocido',
+  authorId: 'diego',
+  publishedAt: '2026-11-15',
+  plannedDate: '2026-11-15',
+  status: 'draft',
+  excerpt:
+    'Un joven de Bagdad tiene una cita secreta. Antes de salir, pide un afeitado rápido, pero el barbero que llega a su casa tiene otros planes.',
+  characters: [
+    {
+      name: 'El joven de Bagdad',
+      description:
+        'Hijo de un mercader. Busca encontrarse con la hija del cadí y se lesiona al intentar escapar.',
+    },
+    {
+      name: 'El barbero',
+      description:
+        'Retrasa al joven con sus discursos y luego lo sigue.',
+    },
+    {
+      name: 'La hija del cadí',
+      description:
+        'Acepta recibir al joven con la condición de que se marche antes de que su padre regrese.',
+    },
+    {
+      name: 'La anciana',
+      description:
+        'Sirve de intermediaria y consigue concertar el encuentro.',
+    },
+    {
+      name: 'El cadí',
+      description: 'Juez de la ciudad y padre de la joven.',
+    },
+  ],
+  summary: [
+    'Un joven de Bagdad se enamora al ver a una muchacha regando flores en su ventana. Una anciana le confirma que es la hija del cadí y consigue que ella lo reciba un viernes. La joven le pide que se marche antes de que su padre vuelva de la oración.',
+    'Antes de salir, el joven manda llamar a un barbero. El hombre se demora consultando un astrolabio y presumiendo de sus conocimientos. Cuando por fin el joven se marcha a la cita, el barbero lo sigue y arma un escándalo al creer que está en peligro.',
+    'En medio del alboroto, el joven intenta huir y se rompe una pierna al caer. Después decide marcharse de Bagdad para evitar volver a encontrarse con el barbero.',
+  ],
+  lessons: [
+    'Escuchar también es respetar el tiempo de los demás. El barbero se concentra en demostrar lo que sabe y pasa por alto la petición del joven.',
+    'Conviene comprobar qué ocurre antes de intervenir. El barbero cree que hay peligro y, al actuar sin verificarlo, agrava la situación.',
+    'La prisa puede llevarnos a tomar decisiones arriesgadas. El joven se precipita al escapar y acaba lesionado.',
+  ],
+  audio: '/audio/joven-cojo-barbero-de-bagdad-diego-garcia-cruz.mp3',
+  illustration:
+    '/ilustraciones/el-barbero-del-zoco-enrique-simonet-1897.jpg',
+  illustrationAlt:
+    'Un barbero afeita a un hombre sentado en un patio del mercado',
+  illustrations: [
+    {
+      src: '/ilustraciones/el-barbero-del-zoco-enrique-simonet-1897.jpg',
+      alt: 'Un barbero afeita a un hombre sentado en un patio del mercado',
+      caption: 'El barbero del zoco (1897), Enrique Simonet',
+    },
+    {
+      src: '/ilustraciones/barbero2.png',
+      alt: 'Un vendedor sostiene una alfombra roja en una calle del mercado',
+      caption: 'Imagen tomada de Páginas Árabes',
+    },
+  ],
+  sources: [
+    {
+      label: 'Leer el cuento completo en español — Biblioteca Virtual Antorcha',
+      url: 'https://www.antorcha.net/biblioteca_virtual/literatura/mil/26.html',
+    },
+    {
+      label:
+        'El barbero del zoco (1897), Enrique Simonet — Wikimedia Commons',
+      url: 'https://commons.wikimedia.org/wiki/File:Enrique_Simonet_-_El_barbero_del_zoco_-_1897.jpg',
+    },
+    {
+      label: 'Imagen tomada de Páginas Árabes',
+      url: 'https://paginasarabes.com/2015/08/22/el-joven-cojo-y-el-barbero-de-bagdad/',
+    },
+  ],
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+  shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
+  shopLinks: [],
+},
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
