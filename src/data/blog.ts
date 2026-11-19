@@ -890,6 +890,119 @@ export const stories: Story[] = [
       },
     ],
   },
+
+  {
+    slug: 'el-rey-omar-al-neman-y-sus-dos-hijos',
+    title:
+      'El rey Omar Al-Nemán y de sus dos hijos Scharkán y Daul’makán',
+    originalTitle:
+      'Relato perteneciente a Alf layla wa-layla (Las mil y una noches). El título presenta distintas variantes de transliteración en las traducciones.',
+    spanishName:
+      'Historia del rey Omar Al-Nemán y de sus dos hijos Scharkán y Daul’makán.',
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Recopilación de relatos tradicionales de origen árabe, persa e indio. Esta historia se desarrolla a lo largo de numerosas noches.',
+    genre: 'Narrativo, cuento de aventuras, drama y relatos maravillosos.',
+    literaryAuthor: 'Anónimo.',
+    written:
+      'Fecha exacta de composición desconocida. Pertenece a la tradición de relatos que conforman Las mil y una noches.',
+    authorId: 'dario',
+    publishedAt: null,
+    plannedDate: '2026-11-19',
+    status: 'draft',
+    excerpt:
+      'La historia de un poderoso rey de Bagdad y sus hijos Scharkán, Daul’makán y Nozhatú, cuyas vidas quedan marcadas por las guerras, el amor, las rivalidades familiares y la lucha por el poder.',
+    characters: [
+      {
+        name: 'Omar Al-Nemán',
+        description:
+          'Rey de Bagdad y padre de Scharkán, Daul’makán y Nozhatú. Sus decisiones influyen profundamente en el destino de su familia y de su reino.',
+      },
+      {
+        name: 'Scharkán',
+        description:
+          'Hijo mayor del rey Omar. Es un guerrero valiente y hábil que participa en campañas militares y conoce a la princesa Abriza.',
+      },
+      {
+        name: 'Daul’makán',
+        description:
+          'Hijo gemelo de Omar y hermano de Nozhatú. Sus aventuras lo llevan lejos de Bagdad y posteriormente participa en la sucesión del reino.',
+      },
+      {
+        name: 'Nozhatú',
+        description:
+          'Hermana gemela de Daul’makán. Es una joven inteligente y decidida que comparte con su hermano parte de sus aventuras.',
+      },
+      {
+        name: 'Abriza',
+        description:
+          'Princesa cristiana, hija del rey Hardobios. Es reconocida por su valentía y habilidades de combate. Su encuentro con Scharkán cambia el rumbo de la historia.',
+      },
+      {
+        name: 'Rey Hardobios',
+        description:
+          'Rey cristiano y padre de Abriza, cuya relación con el reino de Omar forma parte de los conflictos políticos y militares del relato.',
+      },
+      {
+        name: 'Dandán',
+        description:
+          'Gran visir del rey Omar. Es uno de los consejeros importantes durante los acontecimientos que afectan a la familia real.',
+      },
+    ],
+    summary: [
+      'La historia comienza en Bagdad, donde gobierna Omar Al-Nemán, un rey poderoso. Su hijo mayor, Scharkán, es un joven guerrero reconocido por su valentía. Mientras Scharkán se encuentra lejos del reino, nacen Daul’makán y Nozhatú, los hijos gemelos del monarca.',
+      'Durante una campaña militar, Scharkán conoce a Abriza, una princesa cristiana que destaca por su inteligencia y destreza en el combate. Entre ambos surge un vínculo que se desarrolla en medio de las diferencias entre sus pueblos y los conflictos que rodean a sus familias.',
+      'Los acontecimientos posteriores provocan enfrentamientos, pérdidas y deseos de venganza que afectan profundamente al rey Omar y a sus hijos. Al mismo tiempo, Daul’makán y Nozhatú emprenden un viaje que los conduce por distintos lugares y los enfrenta a situaciones inesperadas.',
+      'La muerte del rey Omar cambia el destino de Bagdad y abre una nueva etapa para sus descendientes. Daul’makán regresa al reino y es reconocido como sucesor, mientras se plantea una distribución del poder que también involucra a Scharkán.',
+      'A lo largo de sus numerosos episodios, el relato combina aventuras, guerras, relaciones familiares, amor, traición y disputas por el poder. Sus acontecimientos muestran cómo las decisiones de los gobernantes pueden transformar la vida de quienes los rodean.',
+    ],
+    lessons: [
+      'Las decisiones de quienes gobiernan pueden tener consecuencias que afectan a familias enteras y a pueblos completos.',
+      'La valentía y la determinación son importantes para enfrentar situaciones difíciles, aunque deben acompañarse de prudencia.',
+      'Las rivalidades y los deseos de venganza pueden alimentar conflictos que terminan perjudicando a muchas personas.',
+      'La lealtad y la confianza son fundamentales para mantener unidos a quienes enfrentan dificultades.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/omar-al-neman-portada.jpg',
+    illustrationAlt:
+      'Portada ilustrada de la historia del rey Omar Al-Nemán y sus hijos.',
+    illustrations: [
+      {
+        src: '/ilustraciones/omar-al-neman-2.jpg',
+        alt: 'El rey Omar Al-Nemán lee un libro a sus dos hijos.',
+        caption:
+          'El rey Omar Al-Nemán comparte la lectura con sus dos hijos.',
+      },
+      {
+        src: '/ilustraciones/omar-al-neman-3.jpg',
+        alt: 'Escena de carácter militar con un rey en primer plano y un ejército detrás.',
+        caption:
+          'Una escena que representa al rey y a su ejército.',
+      },
+    ],
+    sources: [
+      {
+        label:
+          'Wikisource — Las mil y una noches, tomo IV: Historia del rey Omar Al-Nemán',
+        url: 'https://es.wikisource.org/wiki/El_libro_de_las_mil_noches_y_una_noche/Tomo_IV',
+      },
+      {
+        label:
+          'Wikisource — Historia del rey Omar Al-Nemán y de sus dos hijos',
+        url: 'https://es.wikisource.org/wiki/Las_mil_y_una_noches%3A74',
+      },
+      {
+        label:
+          'Universidad del Valle — Una mirada transgresora del amor no canónico en algunos cuentos de Las Mil y Una Noches',
+        url: 'https://bibliotecadigital.univalle.edu.co/server/api/core/bitstreams/a7f4c50e-f44a-4dcf-8fba-dca2df644707/content',
+      },
+    ],
+    contentNote:
+      'Borrador preparado para el 19 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+    shop: '',
+    shopLabel: '',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
