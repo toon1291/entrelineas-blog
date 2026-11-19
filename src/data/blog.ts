@@ -726,7 +726,7 @@ export const stories: Story[] = [
       'La envidia puede destruir las relaciones familiares. Los celos de las hermanas provocan una tragedia y terminan convirtiéndose en la causa de su propio castigo.',
       'La compasión puede mantenerse incluso frente al daño recibido. A pesar de la traición, Zobeida sigue sintiendo afecto por sus hermanas y sufre al tener que castigarlas.',
     ],
-    audio: null,
+    audio: '/audio/Zobeida.mp3',
     illustration: '/ilustraciones/zobeida.jpg',
     illustrationAlt:
       'Zobeida, la mayor de las jóvenes. Ilustración de Charles Walker Collectios.',
@@ -751,7 +751,7 @@ export const stories: Story[] = [
       },
     ],
     contentNote:
-      'Publicación realizada el 11 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+      'Publicación realizada el 11 de noviembre de 2026. Audio de solo voz incorporado.',
     shop:
       'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
     shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
@@ -892,7 +892,7 @@ export const stories: Story[] = [
   },
 
   {
-    slug: 'el-rey-omar-al-neman-y-sus-dos-hijos',
+    slug: 'el-rey-omar-al-neman-dario',
     title:
       'El rey Omar Al-Nemán y de sus dos hijos Scharkán y Daul’makán',
     originalTitle:
@@ -1003,6 +1003,304 @@ export const stories: Story[] = [
     shopLabel: '',
     shopLinks: [],
   },
+  {
+  slug: 'el-rey-omar-al-neman-y-sus-dos-hijos',
+  title: 'El rey Omar al Neman y sus dos hijos Scharkan y Daul Makan',
+  originalTitle:
+    'Título original en árabe no verificado para la edición consultada.',
+  collection: 'Las mil y una noches',
+  literaryAuthor:
+    'Anónimo — tradición narrativa de Las mil y una noches.',
+  written:
+    'Fecha exacta desconocida; relato perteneciente a la tradición medieval de la colección.',
+  authorId: 'elizabeth',
+  publishedAt: '2026-11-14',
+  plannedDate: '2026-11-14',
+  status: 'published',
+
+  excerpt:
+    'La historia de un poderoso rey, sus hijos y una serie de conflictos, viajes y encuentros que ponen a prueba la lealtad, el amor y el destino.',
+
+  characters: [
+    {
+      name: 'Omar al Neman',
+      description:
+        'Rey poderoso cuyo linaje da origen a las aventuras principales del relato.',
+    },
+    {
+      name: 'Scharkan',
+      description:
+        'Príncipe valiente y hábil guerrero que vive importantes aventuras y conflictos.',
+    },
+    {
+      name: 'Daul Makan',
+      description:
+        'Hijo del rey Omar al Neman que enfrenta desafíos relacionados con la política y el destino de su reino.',
+    },
+    {
+      name: 'Nuzhat al-Zaman',
+      description:
+        'Hermana de Daul Makan, protagonista de diversos acontecimientos del relato.',
+    },
+    {
+      name: 'Abriza',
+      description:
+        'Princesa cristiana cuya historia se relaciona estrechamente con Scharkan.',
+    },
+  ],
+
+  summary: [
+    'El rey Omar al Neman gobierna un gran reino y tiene dos hijos destacados: Scharkan y Daul Makan. Ambos crecen rodeados de privilegios, pero pronto deberán enfrentarse a situaciones que pondrán a prueba su carácter.',
+
+    'Scharkan participa en campañas militares y conoce a Abriza, una princesa cristiana de gran inteligencia y nobleza. Entre ambos surge una relación marcada por el respeto y la admiración.',
+
+    'Mientras tanto, Daul Makan y su hermana Nuzhat al-Zaman enfrentan conflictos políticos, viajes y peligros que afectan su futuro. Las intrigas, alianzas y enfrentamientos modifican el destino de varias familias y reinos.',
+
+    'A través de numerosas aventuras, los personajes descubren el valor de la lealtad, la justicia y la perseverancia. El relato muestra cómo las decisiones personales pueden influir en el destino de muchas personas.',
+  ],
+
+  lessons: [
+    'La lealtad y el honor fortalecen las relaciones entre las personas y ayudan a enfrentar las dificultades.',
+
+    'Las decisiones impulsivas pueden provocar consecuencias inesperadas; por ello es importante reflexionar antes de actuar.',
+
+    'La perseverancia permite superar los obstáculos y afrontar los cambios que trae la vida.',
+  ],
+
+  audio: null,
+
+  illustration: '/ilustraciones/omar-al-neman.jpg',
+  illustrationAlt:
+    'Representación artística del rey Omar al Neman y sus hijos.',
+
+  illustrations: [
+    {
+      src: '/ilustraciones/omar-al-neman.jpg',
+      alt: 'Representación artística del rey Omar al Neman.',
+      caption: 'El rey Omar al Neman.',
+    },
+     {
+    src: '/ilustraciones/scharkan.jpg',
+    alt: 'El príncipe Scharkan durante sus aventuras.',
+    caption: 'Scharkan, hijo de Omar al Neman.',
+  },
+  {
+    src: '/ilustraciones/daul-makan.jpg',
+    alt: 'Daul Makan reflexiona sobre el destino de su reino.',
+    caption: 'Daul Makan, heredero del reino.',
+  },
+  ],
+
+  sources: [
+    {
+      label: 'Ciudad Seva — Las mil y una noches',
+      url: 'https://ciudadseva.com/texto/las-mil-y-una-noches/',
+    },
+    {
+      label: 'Project Gutenberg — Arabian Nights',
+      url: 'https://www.gutenberg.org/',
+    },
+  ],
+
+  contentNote:
+    'El relato incluye conflictos bélicos, intrigas políticas y enfrentamientos. El resumen evita detalles gráficos.',
+
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p',
+
+  shopLabel: 'Comprar en Librerías Gandhi',
+
+  shopLinks: [],
+},
+{
+  slug: 'historia-de-dulce-amiga',
+  title: 'Historia de Dulce-Amiga',
+  originalTitle: 'Historia de Nūr al-Dīn Alí y Anīs al-Jalīs',
+  spanishName: 'Historia de Dulce-Amiga',
+  collection: 'Las mil y una noches',
+  collectionDetail:
+    'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+  literaryAuthor: 'Anónimo.',
+  written: 'Edad Media; fecha exacta de composición desconocida.',
+  authorId: 'ismael',
+  publishedAt: '2026-11-16',
+  plannedDate: '2026-11-16',
+  status: 'published',
+  excerpt:
+    'Dulce-Amiga y Alí-Nur enfrentan la pérdida de la riqueza, la envidia y el abuso de poder sin perder la lealtad ni la esperanza.',
+  characters: [
+    {
+      name: 'Dulce-Amiga (Anīs al-Jalīs)',
+      description:
+        'Joven de gran belleza, inteligencia y talento para la música y la poesía.',
+    },
+    {
+      name: 'Alí-Nur',
+      description:
+        'Hijo del visir El-Faldl. Se enamora de Dulce-Amiga, pero su imprudencia y sus gastos excesivos le provocan dificultades.',
+    },
+    {
+      name: 'El-Faldl ben-Khacán',
+      description:
+        'Visir generoso y respetado, padre de Alí-Nur.',
+    },
+    {
+      name: 'El-Mohín ben-Sauí',
+      description:
+        'Visir envidioso y ambicioso que intenta perjudicar a la familia de Alí-Nur.',
+    },
+    {
+      name: 'Mohammad ben-Soleimán El-Zeiní',
+      description: 'Sultán de Basora.',
+    },
+    {
+      name: 'Harún al-Rashid',
+      description:
+        'Califa de Bagdad que interviene para resolver los conflictos.',
+    },
+    {
+      name: 'Giafar',
+      description:
+        'Visir del califa, encargado de ayudar a Alí-Nur.',
+    },
+    {
+      name: 'El jeique Ibrahim',
+      description:
+        'Guardián de un jardín y un palacio del califa en Bagdad.',
+    },
+  ],
+  summary: [
+    'La historia comienza en Basora, donde el sultán Mohammad ben-Soleimán encarga a su visir El-Faldl que encuentre a una joven extraordinaria por su belleza, inteligencia y buenos modales. El visir adquiere a Dulce-Amiga, una joven esclavizada que destaca por sus conocimientos, su habilidad musical y su carácter amable.',
+    'Mientras permanece en la casa del visir, Dulce-Amiga conoce a Alí-Nur, el hijo de este. Ambos se enamoran y comienzan una relación que provoca un grave problema, pues ella había sido comprada para el sultán. Finalmente, el padre acepta la unión de los jóvenes.',
+    'Durante un tiempo viven felices, pero todo cambia cuando el visir fallece. Alí-Nur hereda una gran fortuna y la desperdicia en fiestas y reuniones con amigos interesados. Cuando pierde sus riquezas, descubre que quienes lo rodeaban por conveniencia lo abandonan.',
+    'Ante la pobreza, Dulce-Amiga propone que la venda para obtener dinero, aunque esto implique separarse. Sin embargo, durante la venta surge un conflicto con el malvado visir El-Mohín ben-Sauí. Alí-Nur se enfrenta a él y debe huir junto con Dulce-Amiga.',
+    'Los jóvenes llegan a Bagdad, donde encuentran refugio en un jardín perteneciente al califa Harún al-Rashid. Allí, la extraordinaria voz de Dulce-Amiga llama la atención del gobernante, quien escucha su historia y decide ayudarlos. La intervención del califa permite que se haga justicia y que Dulce-Amiga y Alí-Nur reciban protección para comenzar una nueva vida.',
+  ],
+  lessons: [
+    'La riqueza debe administrarse con responsabilidad. Alí-Nur pierde su fortuna por gastar sin medida y confiar en personas que solamente se acercaban a él por interés.',
+    'La lealtad se demuestra en los momentos difíciles. Dulce-Amiga permanece junto a Alí-Nur cuando desaparecen el dinero y los privilegios, mientras que sus supuestos amigos lo abandonan.',
+    'La justicia debe estar por encima de la envidia y el abuso de poder. Las acciones del visir El-Mohín muestran el daño que puede causar la ambición, mientras que la intervención del califa permite reparar las injusticias.',
+  ],
+  audio: '/audio/dulce-amiga.mp3',
+  illustration: '/ilustraciones/dulce-amiga.JPG',
+  illustrationAlt:
+    'Dulce-Amiga en una escena del relato. Imagen tomada de Fairytalez.',
+  illustrations: [
+    {
+      src: '/ilustraciones/dulce-amiga.JPG',
+      alt: 'Dulce-Amiga en una escena del relato.',
+      caption:
+        'Dulce-Amiga en una escena del relato. Imagen tomada de Fairytalez.',
+    },
+  ],
+  sources: [
+    {
+      label: 'Wikisource — Historia de Dulce-Amiga',
+      url: 'https://es.wikisource.org/wiki/Historia_de_Dulce-Amiga',
+    },
+    {
+      label: 'Proyecto Gutenberg — Las mil y una noches',
+      url: 'https://www.gutenberg.org/ebooks/48903',
+    },
+    {
+      label: 'Crédito de la imagen — Fairytalez',
+      url: 'https://fairytalez.com/es/arabian-nights/',
+    },
+  ],
+  contentNote:
+    'Publicación realizada el 16 de noviembre de 2026. Audio de solo voz incorporado.',
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+  shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+  shopLinks: [],
+},
+{
+  slug: 'historia-del-joven-cojo-con-el-barbero-de-bagdad',
+  title: 'Historia del joven cojo con el barbero de Bagdad',
+  originalTitle:
+    'Histoire du jeune homme boiteux avec le barbier de Baghdad (título de la versión francesa de J. C. Mardrus).',
+  collection: 'Las mil y una noches',
+  literaryAuthor: 'Anónimo',
+  written: 'Desconocido',
+  authorId: 'diego',
+  publishedAt: '2026-11-15',
+  plannedDate: '2026-11-15',
+  status: 'published',
+  excerpt:
+    'Un joven de Bagdad tiene una cita secreta. Antes de salir, pide un afeitado rápido, pero el barbero que llega a su casa tiene otros planes.',
+  characters: [
+    {
+      name: 'El joven de Bagdad',
+      description:
+        'Hijo de un mercader. Busca encontrarse con la hija del cadí y se lesiona al intentar escapar.',
+    },
+    {
+      name: 'El barbero',
+      description:
+        'Retrasa al joven con sus discursos y luego lo sigue.',
+    },
+    {
+      name: 'La hija del cadí',
+      description:
+        'Acepta recibir al joven con la condición de que se marche antes de que su padre regrese.',
+    },
+    {
+      name: 'La anciana',
+      description:
+        'Sirve de intermediaria y consigue concertar el encuentro.',
+    },
+    {
+      name: 'El cadí',
+      description: 'Juez de la ciudad y padre de la joven.',
+    },
+  ],
+  summary: [
+    'Un joven de Bagdad se enamora al ver a una muchacha regando flores en su ventana. Una anciana le confirma que es la hija del cadí y consigue que ella lo reciba un viernes. La joven le pide que se marche antes de que su padre vuelva de la oración.',
+    'Antes de salir, el joven manda llamar a un barbero. El hombre se demora consultando un astrolabio y presumiendo de sus conocimientos. Cuando por fin el joven se marcha a la cita, el barbero lo sigue y arma un escándalo al creer que está en peligro.',
+    'En medio del alboroto, el joven intenta huir y se rompe una pierna al caer. Después decide marcharse de Bagdad para evitar volver a encontrarse con el barbero.',
+  ],
+  lessons: [
+    'Escuchar también es respetar el tiempo de los demás. El barbero se concentra en demostrar lo que sabe y pasa por alto la petición del joven.',
+    'Conviene comprobar qué ocurre antes de intervenir. El barbero cree que hay peligro y, al actuar sin verificarlo, agrava la situación.',
+    'La prisa puede llevarnos a tomar decisiones arriesgadas. El joven se precipita al escapar y acaba lesionado.',
+  ],
+  audio: '/audio/joven-cojo-barbero-de-bagdad-diego-garcia-cruz.mp3',
+  illustration:
+    '/ilustraciones/el-barbero-del-zoco-enrique-simonet-1897.jpg',
+  illustrationAlt:
+    'Un barbero afeita a un hombre sentado en un patio del mercado',
+  illustrations: [
+    {
+      src: '/ilustraciones/el-barbero-del-zoco-enrique-simonet-1897.jpg',
+      alt: 'Un barbero afeita a un hombre sentado en un patio del mercado',
+      caption: 'El barbero del zoco (1897), Enrique Simonet',
+    },
+    {
+      src: '/ilustraciones/barbero2.png',
+      alt: 'Un vendedor sostiene una alfombra roja en una calle del mercado',
+      caption: 'Imagen tomada de Páginas Árabes',
+    },
+  ],
+  sources: [
+    {
+      label: 'Leer el cuento completo en español — Biblioteca Virtual Antorcha',
+      url: 'https://www.antorcha.net/biblioteca_virtual/literatura/mil/26.html',
+    },
+    {
+      label:
+        'El barbero del zoco (1897), Enrique Simonet — Wikimedia Commons',
+      url: 'https://commons.wikimedia.org/wiki/File:Enrique_Simonet_-_El_barbero_del_zoco_-_1897.jpg',
+    },
+    {
+      label: 'Imagen tomada de Páginas Árabes',
+      url: 'https://paginasarabes.com/2015/08/22/el-joven-cojo-y-el-barbero-de-bagdad/',
+    },
+  ],
+  shop:
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+  shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
+  shopLinks: [],
+},
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
