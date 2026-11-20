@@ -1301,6 +1301,131 @@ export const stories: Story[] = [
   shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
   shopLinks: [],
 },
+  {
+    slug: 'el-negro-sauab-primer-eunuco-sudanes',
+    title: 'El negro Sauab, primer eunuco sudanés',
+    originalTitle: 'Historia del negro Sauab, primer eunuco sudanés. Relato perteneciente a Alf layla wa-layla (Las mil y una noches). El nombre del protagonista también aparece escrito como Sáuab, según la edición.',
+    spanishName: 'El negro Sauab, primer eunuco sudanés.',
+    collection: 'Las mil y una noches',
+    collectionDetail: 'Las mil y una noches, recopilación de relatos tradicionales de procedencia árabe, persa e india. Relato intercalado en la Historia de Ghanem Ben-Ayub y de su hermana Fetnah. Aparece durante la noche 38, en el tomo III de la edición de Joseph-Charles Mardrus.',
+    genre: 'Narrativo, cuento tradicional, relato de carácter social y dramático. Temas principales: Esclavitud, desigualdad social, infancia, abuso de poder, secretos familiares, pérdida de libertad y destino.',
+    literaryAuthor: 'Anónimo.',
+    written: 'Fecha exacta desconocida. El cuento pertenece a la tradición literaria de Las mil y una noches, formada y transmitida durante varios siglos.',
+    authorId: 'oscar',
+    publishedAt: '2026-11-18',
+    plannedDate: '2026-11-18',
+    status: 'published',
+    excerpt: 'La historia de un joven africano que es separado de su tierra natal y llevado como esclavo a Bagdad, donde una amistad de infancia, un acontecimiento inesperado y las decisiones de una familia poderosa transforman su destino para siempre.',
+    characters: [
+      {
+        name: 'Sauab',
+        description: 'Protagonista y narrador del cuento. Es un niño africano llevado como esclavo a Bagdad cuando tenía cinco años. Crece en la casa de un guardia de palacio y establece una relación cercana con la hija de su propietario. Después de un acontecimiento que la familia decide ocultar, es castrado y destinado al servicio de la joven. Con el tiempo llega a convertirse en eunuco del palacio.',
+      },
+      {
+        name: 'La hija del guardia',
+        description: 'Joven que crece junto a Sauab desde la infancia. Ambos comparten juegos y una convivencia cercana. Su relación con el protagonista desencadena los acontecimientos que transforman la vida de ambos. Posteriormente contrae matrimonio con un barbero.',
+      },
+      {
+        name: 'La madre de la joven',
+        description: 'Mujer que desempeña un papel fundamental en el desarrollo de la historia. Al descubrir lo sucedido entre los menores, decide ocultarlo para proteger la reputación familiar. Organiza el matrimonio de su hija y ordena la mutilación de Sauab, convirtiéndose en la principal responsable de su destino.',
+      },
+      {
+        name: 'El guardia de palacio',
+        description: 'Propietario de Sauab y padre de la muchacha. Trabaja al servicio del palacio de Bagdad. Aunque no conoce los acontecimientos que ocurren dentro de su hogar, el temor a su posible reacción influye en las decisiones de los demás personajes.',
+      },
+      {
+        name: 'El joven barbero',
+        description: 'Hombre que trabaja para la familia y posteriormente se casa con la hija del guardia. Es quien realiza la castración de Sauab por disposición de la madre. Desconoce las circunstancias que motivaron la intervención.',
+      },
+      {
+        name: 'El amigo de Sauab',
+        description: 'Hombre en cuya casa el protagonista busca refugio después del encuentro con la muchacha. Su participación es breve, pero representa un espacio de protección durante un momento de temor.',
+      },
+      {
+        name: 'Kafur',
+        description: 'Segundo eunuco sudanés que participa en la reunión. Escucha la narración de Sauab y, cuando este termina, comienza a contar su propia historia.',
+      },
+      {
+        name: 'Bakhita',
+        description: 'Tercer eunuco sudanés del conjunto de relatos intercalados. Su historia forma parte de la misma secuencia narrativa, aunque no interviene directamente en los acontecimientos de Sauab.',
+      },
+    ],
+    summary: [
+      'La historia del negro Sauab comienza cuando un grupo de eunucos sudaneses decide compartir las circunstancias que los llevaron a convertirse en servidores del palacio. Durante una noche de descanso, uno de ellos propone que cada compañero cuente su propia experiencia. Sauab, encargado de llevar una linterna y unos azadones, es el primero en tomar la palabra.',
+      'Su relato comienza muchos años atrás, cuando apenas tenía cinco años. A esa edad fue separado de su tierra natal por un mercader de esclavos que lo trasladó hasta Bagdad, una de las ciudades más importantes del mundo árabe. Allí fue vendido a un guardia del palacio, quien lo incorporó al servicio de su hogar.',
+      'El guardia tenía una hija de tres años, con quien Sauab comenzó a convivir desde pequeño. Ambos crecieron juntos y desarrollaron una relación de confianza y cercanía. Sauab participaba en los juegos de la niña, cantaba canciones y realizaba bailes que entretenían a quienes vivían en la casa.',
+      'A pesar de su condición de esclavo, el joven era apreciado por los integrantes de aquella familia. Su carácter alegre y su habilidad para divertir a los demás hicieron que se acostumbraran a su presencia. Sin embargo, esa aparente tranquilidad ocultaba una diferencia fundamental: mientras la niña pertenecía a una familia con autoridad y recursos, Sauab continuaba siendo una persona sometida a la voluntad de sus propietarios.',
+      'Los años transcurrieron y ambos llegaron a una nueva etapa de sus vidas. Sauab tenía doce años y la hija del guardia había cumplido diez. Aunque habían crecido juntos, la relación entre ambos comenzó a ser observada de manera diferente debido a las normas sociales que regulaban la convivencia y el comportamiento dentro de las familias.',
+      'Un día, mientras se encontraban solos en un lugar apartado, ocurrió un encuentro íntimo entre los dos menores. El episodio provocó un cambio decisivo en la vida de Sauab. Al comprender que lo sucedido podía ocasionarle graves consecuencias, el muchacho sintió miedo y huyó de la casa para refugiarse con un amigo.',
+      'Poco después, la niña regresó a su hogar. Su madre advirtió que algo había ocurrido y reaccionó con desesperación. Temía que el padre descubriera el encuentro y castigara violentamente a Sauab, además de considerar que la reputación familiar podía quedar comprometida.',
+      'Ante esa situación, la mujer decidió mantener el acontecimiento en secreto. Su principal preocupación era impedir que su esposo conociera lo sucedido y evitar que el escándalo afectara el futuro de su hija.',
+      'Durante aproximadamente dos meses, Sauab permaneció alejado de la familia. Finalmente, la madre consiguió localizarlo y comenzó a ofrecerle regalos para convencerlo de regresar. El muchacho aceptó volver, aunque el episodio nunca volvió a mencionarse abiertamente.',
+      'Tiempo después, la mujer organizó el matrimonio de su hija con un joven barbero que trabajaba para la familia. Para facilitar la unión, proporcionó una dote y preparó lo necesario para la ceremonia. El matrimonio representaba una oportunidad para asegurar el futuro social de la muchacha y mantener ocultos los acontecimientos anteriores.',
+      'Sin embargo, la madre también tomó una decisión que cambiaría definitivamente la existencia de Sauab. Ordenó que el barbero lo castrara, convirtiéndolo en eunuco. Esta mutilación fue realizada sin que el joven tuviera posibilidad de decidir sobre su propio cuerpo y su futuro.',
+      'Después de la intervención, Sauab fue destinado al servicio personal de la muchacha, ahora convertida en esposa del barbero. Su nueva condición le permitía acompañarla en sus desplazamientos, visitas familiares y recorridos por los mercados sin despertar las sospechas que habrían existido anteriormente.',
+      'La madre consiguió que todo permaneciera oculto. Ni el esposo de la joven ni los demás familiares y conocidos llegaron a enterarse de los acontecimientos que habían provocado aquella decisión.',
+      'Sauab continuó viviendo en la casa de su antigua compañera de infancia y de su marido. Con el paso del tiempo, las circunstancias familiares fueron cambiando. Finalmente, murieron la mujer, su esposo y los padres de ella.',
+      'Según el propio relato de Sauab, después de esas muertes los bienes de la familia pasaron a sus manos. Posteriormente llegó a desempeñarse como eunuco del palacio, posición que mantenía cuando contó su historia a sus compañeros.',
+      'Al terminar su narración, Sauab explicó que esos acontecimientos habían sido la causa de su mutilación. Su intervención concluyó y otro de los eunucos, llamado Kafur, tomó la palabra para contar su propia experiencia.',
+      'El cuento presenta una historia breve, pero marcada por acontecimientos difíciles. A través de la vida de Sauab se muestran las condiciones de desigualdad que podían existir en una sociedad donde la esclavitud era aceptada y donde las personas sometidas a servidumbre tenían un control muy limitado sobre sus propias decisiones.',
+      'También permite reflexionar sobre la manera en que el miedo al escándalo, la preocupación por la reputación y el poder de las familias podían provocar decisiones injustas e irreversibles.',
+      'Aunque Sauab termina ocupando una posición dentro del palacio y recibiendo bienes, esos acontecimientos no eliminan el sufrimiento ni la pérdida de autonomía que experimentó durante su juventud.',
+      'Su historia constituye un ejemplo de cómo Las mil y una noches combina situaciones cotidianas, conflictos humanos y acontecimientos sorprendentes para presentar relatos que, además de entretener, permiten examinar las costumbres y contradicciones de las sociedades representadas.',
+    ],
+    lessons: [
+      'La libertad es fundamental para la dignidad humana. La historia de Sauab muestra las consecuencias de vivir bajo el control de otras personas. Desde pequeño, el protagonista es vendido y obligado a aceptar decisiones que afectan su vida. Su experiencia permite comprender la importancia de respetar la libertad y los derechos de cada individuo. El destino de una persona puede cambiar por decisiones ajenas. Sauab no elige abandonar su tierra natal, convertirse en esclavo ni sufrir una mutilación. Su historia demuestra cómo las circunstancias sociales y las acciones de otros pueden transformar profundamente una vida.',
+      'El abuso de poder puede provocar daños irreversibles. La madre de la joven utiliza su autoridad para resolver un problema familiar mediante una decisión que perjudica gravemente a Sauab. El relato demuestra cómo el poder, cuando no tiene límites éticos, puede convertirse en una herramienta de injusticia.',
+      'El miedo a las apariencias puede conducir a decisiones equivocadas. La preocupación por conservar la reputación de la familia lleva a ocultar la verdad y a tomar medidas extremas. Esta situación invita a reflexionar sobre las consecuencias de dar mayor importancia a la imagen social que al bienestar de las personas.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/sauab-portada.png',
+    illustrationAlt:
+      'Portada verde de Las mil noches y una noche, con cinco figuras en un recuadro dorado.',
+    illustrations: [
+      {
+        src: '/ilustraciones/sauab-1.png',
+        alt: 'Una mujer sentada junto a un hombre con turbante en un patio nocturno.',
+        caption: 'Escena nocturna en un patio',
+      },
+      {
+        src: '/ilustraciones/sauab-2.png',
+        alt: 'Varias personas se reúnen al pie de un gran arco en un recinto ornamentado.',
+        caption: 'Interior con arcos monumentales',
+      },
+      {
+        src: '/ilustraciones/sauab-3.png',
+        alt: 'Tres hombres con túnicas conversan. Uno está sentado y dos están de pie.',
+        caption: 'Tres figuras conversan',
+      },
+      {
+        src: '/ilustraciones/sauab-4.png',
+        alt: 'Dos mujeres se sientan entre cojines mientras un hombre se asoma junto a una columna.',
+        caption: 'Escena en un salón ornamentado',
+      },
+    ],
+    sources: [
+      {
+        label: 'Project Gutenberg — El libro de las mil noches y una noche, tomo III',
+        url: 'https://www.gutenberg.org/files/48903/old/48903-h/48903-h.htm',
+      },
+      {
+        label: 'Ciudad Seva — Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
+        url: 'https://ciudadseva.com/texto/las-mil-y-una-noches-08/',
+      },
+      {
+        label: 'Universidad Nacional Autónoma de México — Las mil y una noches (PDF)',
+        url: 'https://portalacademico.cch.unam.mx/materiales/al/cont/tall/tlriid/tlriid4/circuloLectores/docs/las-mil-y-una-noches.pdf',
+      },
+      {
+        label: 'Wikipedia — Las mil y una noches',
+        url: 'https://es.wikipedia.org/wiki/Las_mil_y_una_noches',
+      },
+    ],
+    contentNote: 'El relato aborda la esclavitud, el abuso de poder y la mutilación, sin descripciones gráficas.',
+    shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+    shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
+    shopLinks: []
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
