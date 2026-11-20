@@ -907,9 +907,9 @@ export const stories: Story[] = [
     written:
       'Fecha exacta de composición desconocida. Pertenece a la tradición de relatos que conforman Las mil y una noches.',
     authorId: 'dario',
-    publishedAt: null,
+    publishedAt: '2026-11-19',
     plannedDate: '2026-11-19',
-    status: 'draft',
+    status: 'published',
     excerpt:
       'La historia de un poderoso rey de Bagdad y sus hijos Scharkán, Daul’makán y Nozhatú, cuyas vidas quedan marcadas por las guerras, el amor, las rivalidades familiares y la lucha por el poder.',
     characters: [
@@ -962,7 +962,7 @@ export const stories: Story[] = [
       'Las rivalidades y los deseos de venganza pueden alimentar conflictos que terminan perjudicando a muchas personas.',
       'La lealtad y la confianza son fundamentales para mantener unidos a quienes enfrentan dificultades.',
     ],
-    audio: null,
+    audio: '/audio/rey-omar-al-neman.mp3',
     illustration: '/ilustraciones/omar-al-neman-portada.jpg',
     illustrationAlt:
       'Portada ilustrada de la historia del rey Omar Al-Nemán y sus hijos.',
