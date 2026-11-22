@@ -1426,6 +1426,114 @@ export const stories: Story[] = [
     shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
     shopLinks: []
   },
+  {
+    slug: 'el-joven-kanmakan-hijo-de-daul-makan',
+    title: 'El joven Kanmakán, hijo de Daul-makán',
+    originalTitle: 'Título original en su idioma no verificado.',
+    spanishName: "Aventuras del joven Kanmakán, hijo de Daul'Makan",
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Las fuentes consultadas sitúan este episodio entre las noches 138 y 145.',
+    literaryAuthor:
+      'No identificado en las fuentes consultadas; relato de Las mil y una noches.',
+    written:
+      'Fecha de composición desconocida; las fuentes no la indican. El 23 de septiembre de 2023 corresponde a la publicación de las páginas web, no al año de escritura.',
+    authorId: 'diego',
+    publishedAt: '2026-11-21',
+    plannedDate: '2026-11-21',
+    status: 'published',
+    excerpt:
+      'Apartado de Bagdad por la usurpación del trono, Kanmakán emprende un viaje de aventuras para recuperar sus derechos y reencontrarse con su familia.',
+    characters: [
+      {
+        name: 'Kanmakán',
+        description:
+          'Hijo de Daul-makán y heredero de Bagdad, obligado a salir de la ciudad mientras un chambelán controla el trono.',
+      },
+      {
+        name: 'Fuerza del Destino',
+        description:
+          'Prima de Kanmakán e hija de Nozhatú, a quien él ama desde joven.',
+      },
+      {
+        name: 'Sabah',
+        description:
+          'Beduino que se convierte en compañero y aliado de Kanmakán durante sus viajes.',
+      },
+      {
+        name: 'El gran visir Dandán',
+        description:
+          'Fiel servidor de la familia real que organiza la resistencia contra el usurpador y busca a Kanmakán.',
+      },
+      {
+        name: 'Nozhatú',
+        description:
+          'Tía de Kanmakán y madre de Fuerza del Destino, separada de su familia por los conflictos del relato.',
+      },
+      {
+        name: 'Rumzán',
+        description:
+          'Rey de Kaissaria cuyo parentesco con Kanmakán se descubre durante la campaña contra sus enemigos.',
+      },
+      {
+        name: 'El gran chambelán',
+        description:
+          'Tutor de Kanmakán que se apodera del gobierno y lo aparta de sus derechos.',
+      },
+    ],
+    summary: [
+      'Kanmakán, hijo del difunto rey Daul-makán, vive apartado del poder por el gran chambelán, que se ha hecho con el gobierno de Bagdad. También le prohíben acercarse a su prima Fuerza del Destino. Ante las amenazas y el encierro, Kanmakán abandona la ciudad para buscar fortuna y aliados.',
+      'En el camino conoce a Sabah, un beduino con quien comparte sus esperanzas y emprende una vida de viajes y combates. Kanmakán socorre a un jinete herido, recibe su caballo Katul y continúa reuniendo compañeros y recursos. Mientras tanto, el gran visir Dandán organiza la resistencia, derrota al usurpador y manda buscar al heredero.',
+      'Cuando vuelve a Bagdad, Kanmakán se reúne con su madre y con Fuerza del Destino, con quien después se casa. En una campaña posterior descubre que Rumzán, rey de Kaissaria, es su tío; ambos acuerdan gobernar juntos y unen fuerzas frente a los enemigos de su familia.',
+      'La continuación resuelve antiguas disputas y revela otros vínculos entre los personajes. Tras derrotar a sus adversarios, Kanmakán y sus aliados regresan a Bagdad, donde se reúnen familiares y viejos conocidos.',
+    ],
+    lessons: [
+      'La lealtad se demuestra con acciones: Sabah acompaña a Kanmakán y Dandán persevera en apoyar al heredero.',
+      'La compasión puede crear vínculos duraderos; Kanmakán auxilia al jinete herido sin exigir una recompensa.',
+      'El abuso del poder y las disputas por el trono dañan a las familias y extienden los conflictos.',
+    ],
+    audio: '/audio/kanmakan-diego-garcia-cruz.mp3',
+    illustration: '/ilustraciones/kanmakan-anton-pieck.jpg',
+    illustrationAlt:
+      'Un jinete sobre un camello entre personas y puestos de una ciudad.',
+    illustrations: [
+      {
+        src: '/ilustraciones/kanmakan-anton-pieck.jpg',
+        alt: 'Un jinete sobre un camello entre personas y puestos de una ciudad.',
+        caption:
+          'Un jinete sobre un camello entre personas y puestos de una ciudad. Anton Pieck. El regreso de Kanmakán a Bagdad, ilustración para Las mil y una noches. Fuente: Christie’s.',
+      },
+      {
+        src: '/ilustraciones/kanmakan-albert-letchford.jpg',
+        alt: 'Ilustración en blanco y negro de varias personas que descubren un cuerpo tendido en el suelo.',
+        caption:
+          'Ilustración en blanco y negro de varias personas que descubren un cuerpo tendido en el suelo. Albert Letchford. Ilustración de El rey Omar y sus hijos, ciclo narrativo al que pertenece la historia de Kanmakán. Imagen de contexto; no representa una escena identificada de este episodio. Fuente: 1001 Recaps.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Leer la primera parte en español — 1001 noches, cada historia',
+        url: 'https://h.1001noches.co/2020/10/11-p1-aventuras-del-joven-kanmakan-hijo.html',
+      },
+      {
+        label: 'Leer la segunda parte en español — 1001 noches, cada historia',
+        url: 'https://h.1001noches.co/2020/10/11-p2-aventuras-del-joven-kanmakan-hijo.html',
+      },
+      {
+        label: 'Anton Pieck — El regreso de Kanmakán a Bagdad, Christie’s',
+        url: 'https://www.christies.com/en/lot/lot-5566106',
+      },
+      {
+        label: 'Albert Letchford — El rey Omar y sus hijos, 1001 Recaps',
+        url: 'https://1001recaps.org/arabian_nights_-_letchford_-_13/',
+      },
+    ],
+    contentNote:
+      'El relato incluye guerras, secuestros, esclavitud y castigos violentos; este resumen omite sus detalles gráficos. No se ha verificado que esta edición incluya el episodio de Kanmakán.',
+    shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+    shopLabel: 'Comprar Las mil y una noches en Gandhi',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({

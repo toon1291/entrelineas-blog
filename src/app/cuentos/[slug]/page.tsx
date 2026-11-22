@@ -227,39 +227,43 @@ export default async function StoryPage({
             </p>
           </div>
 
-          <div className="audio-panel">
-            <h3>Dónde comprar la obra</h3>
+          {(story.shop || story.shopLinks.length > 0) && (
+            <div className="audio-panel">
+              <h3>Dónde comprar la obra</h3>
 
-            <p>
-              El cuento pertenece a la colección Las mil y una noches.
-              Puedes consultar ediciones en:
-            </p>
+              <p>
+                El cuento pertenece a la colección Las mil y una noches.
+                Puedes consultar ediciones en:
+              </p>
 
-            <div className="shop-links">
-              <a
-                href={story.shop}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-link"
-              >
-                {story.shopLabel || 'Comprar en El Sótano'}
-                <ArrowUpRight size={17} />
-              </a>
+              <div className="shop-links">
+                {story.shop && (
+                  <a
+                    href={story.shop}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link"
+                  >
+                    {story.shopLabel || 'Comprar en El Sótano'}
+                    <ArrowUpRight size={17} />
+                  </a>
+                )}
 
-              {story.shopLinks.map((shopLink) => (
-                <a
-                  key={shopLink.url}
-                  href={shopLink.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-link"
-                >
-                  {shopLink.label}
-                  <ArrowUpRight size={17} />
-                </a>
-              ))}
+                {story.shopLinks.map((shopLink) => (
+                  <a
+                    key={shopLink.url}
+                    href={shopLink.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link"
+                  >
+                    {shopLink.label}
+                    <ArrowUpRight size={17} />
+                  </a>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </aside>
       </div>
     </main>
