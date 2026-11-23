@@ -1604,7 +1604,7 @@ export const stories: Story[] = [
       'No debemos confiar ciegamente en las apariencias ni en las palabras amables. Algunas criaturas utilizan el engaño para aprovecharse de otras, por lo que conviene analizar las intenciones de quienes nos rodean.',
       'La amistad debe basarse en el respeto y la lealtad. Las historias muestran las consecuencias de la crueldad, el abuso de poder y la traición, pero también el valor de ayudar a los demás.',
     ],
-    audio: null,
+    audio: '/audio/animales-y-de-las-aves.mp3',
     illustration: '/ilustraciones/animals.jpg',
     illustrationAlt:
       'Ilustración inspirada en los animales y las aves del relato.',
