@@ -1638,6 +1638,192 @@ export const stories: Story[] = [
     shopLabel: 'Comprar Las mil y una noches en Gandhi',
     shopLinks: [],
   },
+    {
+      slug: 'historia-de-ghanem-ben-ayub-y-de-su-hermana-fetnah',
+      title: 'Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
+      originalTitle:
+        'Título árabe individual no identificado en las fuentes proporcionadas.',
+      spanishName:
+        'Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
+      collection: 'Las mil y una noches',
+      collectionDetail:
+        'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+      literaryAuthor: 'Anónimo.',
+      written: 'Fecha exacta desconocida.',
+      authorId: 'oliver',
+      publishedAt: '2026-11-17',
+      plannedDate: '2026-11-17',
+      status: 'published',
+      excerpt:
+        'Ghanem salva a una joven abandonada en Bagdad y enfrenta los celos y las decisiones precipitadas del califa, hasta que la verdad permite la reparación y la reconciliación.',
+      characters: [
+        {
+          name: 'Ghanem Ben-Ayub',
+          description:
+            'Joven comerciante que viaja de Damasco a Bagdad y rescata a Kuat Al-Kulub.',
+        },
+        {
+          name: 'Kuat Al-Kulub',
+          description:
+            'Joven favorita del califa, abandonada y rescatada por Ghanem.',
+        },
+        {
+          name: 'Harún al-Rashid',
+          description:
+            'Califa de Bagdad que actúa por celos, descubre la verdad y repara la injusticia.',
+        },
+        {
+          name: 'Sett Zobeida',
+          description:
+            'Ordena abandonar a Kuat Al-Kulub por sentir celos de ella.',
+        },
+        {
+          name: 'Fetnah',
+          description:
+            'Hermana de Ghanem, expulsada de Damasco junto con su familia.',
+        },
+        {
+          name: 'La madre de Ghanem',
+          description:
+            'Acompaña a Ghanem y a Fetnah tras la pérdida de su fortuna y su expulsión.',
+        },
+      ],
+      summary: [
+        'Ghanem Ben-Ayub es un joven comerciante que, después de la muerte de su padre, viaja de Damasco a Bagdad para vender las mercancías heredadas. Sus negocios prosperan y consigue una importante fortuna.',
+        'Una noche, al encontrar cerradas las puertas de la ciudad, Ghanem se refugia cerca de un cementerio y observa a tres hombres que entierran un gran cajón. Al marcharse, descubre que contiene a una joven todavía viva: Kuat Al-Kulub.',
+        'La joven es una favorita del califa Harún al-Rashid. Había sido drogada y abandonada por orden de Sett Zobeida. Ghanem la cuida y ambos se enamoran, pero él respeta su relación con el califa.',
+        'Cuando el califa descubre a Kuat Al-Kulub en casa de Ghanem, interpreta mal la situación y ordena perseguir al joven, confiscar sus bienes y castigar a su familia. Ghanem huye, cae en la pobreza y debe enfrentar la enfermedad.',
+        'Kuat Al-Kulub explica la verdad al califa, quien reconoce su injusticia y ordena buscar a Ghanem. Finalmente, el joven se reúne con su madre, su hermana y su amada; Ghanem se casa con Kuat Al-Kulub y Fetnah contrae matrimonio con el califa.',
+      ],
+      lessons: [
+        'No debemos juzgar sin conocer la verdad. El califa actúa impulsado por los celos y provoca sufrimiento a personas inocentes.',
+        'La honestidad y el respeto tienen un gran valor. Ghanem protege a Kuat Al-Kulub sin aprovecharse de su vulnerabilidad, incluso cuando está enamorado de ella.',
+        'Reconocer los errores es necesario para reparar el daño. Cuando descubre la verdad, el califa acepta que actuó injustamente y busca compensar a los afectados.',
+      ],
+      audio: null,
+      illustration: '/ilustraciones/Ghanem.jpg',
+      illustrationAlt:
+        'Ilustración de Ghanem Ben-Ayub y su hermana Fetnah.',
+      illustrations: [
+        {
+          src: '/ilustraciones/Ghanem.jpg',
+          alt: 'Escena relacionada con Ghanem Ben-Ayub y Fetnah.',
+          caption:
+            'Ilustración de Ghanem Ben-Ayub y su hermana Fetnah.',
+        },
+      ],
+      sources: [
+        {
+          label:
+            'Wikisource — Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
+          url: 'https://es.wikisource.org/wiki/Historia_de_Ghanem_Ben-Ayub_y_de_su_hermana_Fetnah',
+        },
+        {
+          label:
+            'Ciudad Seva — Las mil y una noches',
+          url: 'https://ciudadseva.com/texto/las-mil-y-una-noches-08/',
+        },
+        {
+          label: 'Crédito de la ilustración',
+          url: 'https://www.antorcha.net/biblioteca_virtual/literatura/mil/34.jpg',
+        },
+      ],
+      contentNote:
+        'Publicación preparada para el 17 de noviembre de 2026. El audio de solo voz está pendiente de incorporar.',
+      shop:
+        'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+      shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+      shopLinks: [],
+    },
+    {
+      slug: 'historia-de-ali-ben-bekar-y-la-bella-schamsennahar',
+      title: 'Historia de Alí Ben-Bekar y la bella Schamsennahar',
+      originalTitle:
+        'Título árabe individual no identificado en las fuentes proporcionadas.',
+      spanishName:
+        'Historia de Alí Ben-Bekar y la bella Schamsennahar',
+      collection: 'Las mil y una noches',
+      collectionDetail:
+        'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+      literaryAuthor: 'Anónimo.',
+      written: 'Fecha exacta desconocida.',
+      authorId: 'oliver',
+      publishedAt: '2026-11-23',
+      plannedDate: '2026-11-23',
+      status: 'published',
+      excerpt:
+        'Alí Ben-Bekar y Schamsennahar viven un amor secreto marcado por encuentros, peligros y pérdidas dentro de la corte de Harún al-Rashid.',
+      characters: [
+        {
+          name: 'Alí Ben-Bekar',
+          description:
+            'Joven príncipe de origen persa que se enamora de Schamsennahar.',
+        },
+        {
+          name: 'Schamsennahar',
+          description:
+            'Bella mujer perteneciente al círculo íntimo del califa Harún al-Rashid.',
+        },
+        {
+          name: 'Abalhassan Ben-Taher',
+          description:
+            'Comerciante amigo de Alí que intenta protegerlo y ayudarlo.',
+        },
+        {
+          name: 'Amín',
+          description:
+            'Joyero que ayuda a organizar encuentros y a planear la huida de Alí.',
+        },
+        {
+          name: 'Harún al-Rashid',
+          description:
+            'Califa de Bagdad relacionado con el entorno en el que vive Schamsennahar.',
+        },
+      ],
+      summary: [
+        'En Bagdad vive Alí Ben-Bekar, un joven príncipe de origen persa que visita con frecuencia la tienda de su amigo, el comerciante Abalhassan Ben-Taher.',
+        'Alí conoce a Schamsennahar, una hermosa mujer del círculo íntimo del califa Harún al-Rashid. Ambos se sienten atraídos desde el primer encuentro y mantienen una relación peligrosa por su posición social.',
+        'Schamsennahar invita a Alí y a Abalhassan a su palacio. Durante una reunión acompañada de música y poesía, los jóvenes descubren su amor. Desde entonces intentan mantenerse en contacto mediante mensajes y encuentros secretos.',
+        'Abalhassan se marcha preocupado por las consecuencias, mientras Amín ocupa su lugar y ayuda a organizar nuevos encuentros. Los protagonistas enfrentan robos, sospechas y el temor constante de ser descubiertos.',
+        'Cuando el secreto sale a la luz, Alí intenta huir con ayuda de Amín. Ambos son asaltados por unos bandidos y se refugian en un oasis, donde Alí muere debilitado por sus sufrimientos. Schamsennahar también fallece en el palacio del califa.',
+        'Sus amigos consiguen que Alí sea enterrado junto a su amada. El relato termina con una reflexión sobre el amor, la pérdida y el sufrimiento provocado por una relación que no podían vivir libremente.',
+      ],
+      lessons: [
+        'El amor no elimina las dificultades de la realidad. Los sentimientos de Alí y Schamsennahar son intensos, pero las circunstancias sociales y políticas impiden que puedan estar juntos sin peligro.',
+        'La amistad verdadera se demuestra mediante las acciones. Abalhassan, Amín y la confidente ayudan a los protagonistas en momentos difíciles, aunque esa ayuda también implica riesgos.',
+        'Las emociones necesitan acompañarse de prudencia. La historia muestra cómo el sufrimiento, el miedo y las decisiones desesperadas pueden tener consecuencias irreversibles.',
+      ],
+      audio: null,
+      illustration: '/ilustraciones/Ali.JPG',
+      illustrationAlt:
+        'Ilustración de Alí Ben-Bekar y Schamsennahar.',
+      illustrations: [
+        {
+          src: '/ilustraciones/Ali.JPG',
+          alt: 'Escena relacionada con Alí Ben-Bekar y Schamsennahar.',
+          caption:
+            'Ilustración de Alí Ben-Bekar y la bella Schamsennahar.',
+        },
+      ],
+      sources: [
+        {
+          label:
+            'Wikisource — Noche 168, episodio final de Alí Ben-Bekar',
+          url: 'https://es.wikisource.org/wiki/Las_mil_y_una_noches:183',
+        },
+        {
+          label:
+            'Wikisource — El libro de las mil noches y una noche, Tomo V',
+          url: 'https://es.wikisource.org/wiki/El_libro_de_las_mil_noches_y_una_noche/Tomo_V',
+        },
+      ],
+      contentNote:
+        'Publicación preparada para el 23 de noviembre de 2026. El audio de solo voz está pendiente de incorporar.',
+      shop:
+        'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+      shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+      shopLinks: [],
+    },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
