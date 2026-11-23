@@ -1534,6 +1534,110 @@ export const stories: Story[] = [
     shopLabel: 'Comprar Las mil y una noches en Gandhi',
     shopLinks: [],
   },
+  {
+    slug: 'historias-encantadoras-de-los-animales-y-de-las-aves',
+    title: 'Historias encantadoras de los animales y de las aves',
+    originalTitle: 'Kitāb Alf Layla wa-Layla (كتاب ألف ليلة وليلة)',
+    spanishName: 'Historias encantadoras de los animales y de las aves',
+    collection: 'Las mil y una noches',
+    collectionDetail:
+      'Las mil y una noches, cuyo título en árabe es Kitāb Alf Layla wa-Layla.',
+    literaryAuthor: 'Anónimo.',
+    written: 'Fecha exacta desconocida.',
+    authorId: 'ismael',
+    publishedAt: '2026-11-22',
+    plannedDate: '2026-11-22',
+    status: 'published',
+    excerpt:
+      'Diversas fábulas reunidas en Las mil y una noches muestran a animales que razonan, se enfrentan y representan virtudes y defectos humanos.',
+    characters: [
+      {
+        name: 'La oca',
+        description:
+          'Ave que describe a Ibn-Adán como un ser astuto y temible.',
+      },
+      {
+        name: 'El pavo real y la pava real',
+        description:
+          'Pareja de aves que recibe a la oca y le ofrece protección.',
+      },
+      {
+        name: 'El león',
+        description:
+          'Animal fuerte que aprende que la fuerza física no siempre supera a la inteligencia.',
+      },
+      {
+        name: 'El lobo',
+        description:
+          'Personaje autoritario y cruel que abusa de su poder.',
+      },
+      {
+        name: 'El zorro',
+        description:
+          'Animal astuto que usa su ingenio para enfrentarse al lobo y aparece en otras fábulas.',
+      },
+      {
+        name: 'La tortuga y el martín pescador',
+        description:
+          'Protagonistas de una historia sobre la confianza y las apariencias.',
+      },
+      {
+        name: 'El ratón, la comadreja, el cuervo y el gato de algalia',
+        description:
+          'Animales protagonistas de relatos sobre convivencia, prudencia y amistad.',
+      },
+      {
+        name: 'Ibn-Adán',
+        description:
+          'Nombre utilizado para referirse al ser humano, presentado como una criatura especialmente astuta.',
+      },
+    ],
+    summary: [
+      'Historias encantadoras de los animales y de las aves reúne diversas fábulas en las que los animales hablan, razonan y enfrentan situaciones que reflejan las virtudes y los defectos de las personas.',
+      'La primera historia presenta a un pavo real y una pava real que viven tranquilamente cerca del mar. Durante una visita a una isla encuentran a una oca aterrorizada por el peligro que representa Ibn-Adán, es decir, el ser humano. La oca cuenta sus encuentros con otros animales y con un joven león que pretende enfrentarse a ese enemigo.',
+      'Después aparecen otros relatos, como el de la tortuga y el martín pescador, que aborda los riesgos de confiar sin precaución, y el del lobo y el zorro, donde un lobo cruel maltrata constantemente a su compañero hasta que este encuentra una manera de vengarse mediante su ingenio.',
+      'La colección también incluye las historias del ratón y la comadreja, del cuervo y el gato de algalia, y del cuervo y el zorro. En ellas se presentan conflictos relacionados con la confianza, la amistad, el engaño, la supervivencia y el uso de la inteligencia.',
+      'A lo largo de estas narraciones, los animales representan distintos comportamientos humanos: la arrogancia, la generosidad, el egoísmo, la prudencia y la lealtad.',
+    ],
+    lessons: [
+      'La inteligencia y la prudencia pueden superar la fuerza. Los animales descubren que ser poderoso no garantiza el éxito cuando se actúa sin pensar.',
+      'No debemos confiar ciegamente en las apariencias ni en las palabras amables. Algunas criaturas utilizan el engaño para aprovecharse de otras, por lo que conviene analizar las intenciones de quienes nos rodean.',
+      'La amistad debe basarse en el respeto y la lealtad. Las historias muestran las consecuencias de la crueldad, el abuso de poder y la traición, pero también el valor de ayudar a los demás.',
+    ],
+    audio: null,
+    illustration: '/ilustraciones/animals.jpg',
+    illustrationAlt:
+      'Ilustración inspirada en los animales y las aves del relato.',
+    illustrations: [
+      {
+        src: '/ilustraciones/animals.jpg',
+        alt: 'Animales y aves reunidos en una escena ilustrada.',
+        caption:
+          'Historias encantadoras de los animales y de las aves. Crédito: 1001 Recaps.',
+      },
+    ],
+    sources: [
+      {
+        label: 'Proyecto Gutenberg — Tomo VI',
+        url: 'https://www.gutenberg.org/ebooks/74041',
+      },
+      {
+        label:
+          'Wikisource — Inicio del relato, noche 146',
+        url: 'https://es.wikisource.org/wiki/Las_mil_y_una_noches:177',
+      },
+      {
+        label: 'Crédito de la ilustración — 1001 Recaps',
+        url: 'https://1001recaps.org/wp-content/uploads/2020/04/animals-featured-1.jpg',
+      },
+    ],
+    contentNote:
+      'Publicación realizada el 22 de noviembre de 2026. El audio de solo voz queda pendiente de incorporar.',
+    shop:
+      'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+    shopLabel: 'Comprar Las mil y una noches en Gandhi',
+    shopLinks: [],
+  },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
