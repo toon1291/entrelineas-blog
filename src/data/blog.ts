@@ -1512,24 +1512,43 @@ export const stories: Story[] = [
     'Las experiencias difíciles pueden convertirse en aprendizajes que nos ayudan a madurar y a valorar los sentimientos de los demás.'
   ],
   audio: null,
-  illustration: {
-    src: '/ilustraciones/aziz-aziza-diadema.jpg',
-    alt: 'Ilustración de Aziz, Aziza y el príncipe Diadema en una escena inspirada en Las mil y una noches.'
-  },
+   illustration: '/ilustraciones/aziz-aziza-diadema.jpg',
+  illustrationAlt:
+    'Ilustración de Aziz, Aziza y el príncipe Diadema en una escena inspirada en Las mil y una noches.',
   illustrations: [
-    '/ilustraciones/aziz-aziza-diadema.jpg',
-    '/ilustraciones/aziza.jpg',
-    '/ilustraciones/aziz.jpg',
-    '/ilustraciones/principe-diadema.jpg',
-    '/ilustraciones/princesa-donia.jpg'
+    {
+      src: '/ilustraciones/aziz-aziza-diadema.jpg',
+      alt: 'Aziz, Aziza y el príncipe Diadema en una escena de Las mil y una noches.',
+      caption: 'Aziz, Aziza y el príncipe Diadema.',
+    },
+    {
+      src: '/ilustraciones/aziza.jpg',
+      alt: 'Ilustración de Aziza.',
+      caption: 'Aziza.',
+    },
+    {
+      src: '/ilustraciones/aziz.jpg',
+      alt: 'Ilustración de Aziz.',
+      caption: 'Aziz.',
+    },
+    {
+      src: '/ilustraciones/principe-diadema.jpg',
+      alt: 'Ilustración del príncipe Diadema.',
+      caption: 'El príncipe Diadema.',
+    },
+    {
+      src: '/ilustraciones/princesa-donia.jpg',
+      alt: 'Ilustración de la princesa Donia.',
+      caption: 'La princesa Donia.',
+    },
   ],
   sources: [
     {
-      title: 'Historia de Aziz y Aziza y del hermoso príncipe Diadema – Wikisource',
+      label: 'Historia de Aziz y Aziza y del hermoso príncipe Diadema – Wikisource',
       url: 'https://es.wikisource.org/wiki/Historia_de_Aziz_y_Aziza_y_del_hermoso_pr%C3%ADncipe_Diadema'
     },
     {
-      title: 'Las mil y una noches – Radioteca',
+      label: 'Las mil y una noches – Radioteca',
       url: 'https://radioteca.net/media/uploads/manuales/2019_11/las_mil_y_una_noches.pdf'
     }
   ],
@@ -1537,7 +1556,7 @@ export const stories: Story[] = [
   shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
   shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
   shopLinks: []
-}
+},
   {
     slug: 'el-joven-kanmakan-hijo-de-daul-makan',
     title: 'El joven Kanmakán, hijo de Daul-makán',
