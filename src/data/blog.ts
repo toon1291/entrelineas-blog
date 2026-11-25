@@ -1642,7 +1642,7 @@ export const stories: Story[] = [
       slug: 'historia-de-ghanem-ben-ayub-y-de-su-hermana-fetnah',
       title: 'Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
       originalTitle:
-        'Título árabe individual no identificado en las fuentes proporcionadas.',
+        'De Ghamin ben Ayoub (variante de transliteración: Ghanem/Ghanim ben Ayyub).',
       spanishName:
         'Historia de Ghanem Ben-Ayub y de su hermana Fetnah',
       collection: 'Las mil y una noches',
@@ -1700,7 +1700,7 @@ export const stories: Story[] = [
         'La honestidad y el respeto tienen un gran valor. Ghanem protege a Kuat Al-Kulub sin aprovecharse de su vulnerabilidad, incluso cuando está enamorado de ella.',
         'Reconocer los errores es necesario para reparar el daño. Cuando descubre la verdad, el califa acepta que actuó injustamente y busca compensar a los afectados.',
       ],
-      audio: null,
+      audio: '/audio/Ghanem.mp3',
       illustration: '/ilustraciones/Ghanem.jpg',
       illustrationAlt:
         'Ilustración de Ghanem Ben-Ayub y su hermana Fetnah.',
@@ -1729,7 +1729,7 @@ export const stories: Story[] = [
         },
       ],
       contentNote:
-        'Publicación preparada para el 17 de noviembre de 2026. El audio de solo voz está pendiente de incorporar.',
+        'Publicación del 17 de noviembre de 2026. Audio de solo voz incorporado.',
       shop:
         'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
       shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
@@ -1739,7 +1739,7 @@ export const stories: Story[] = [
       slug: 'historia-de-ali-ben-bekar-y-la-bella-schamsennahar',
       title: 'Historia de Alí Ben-Bekar y la bella Schamsennahar',
       originalTitle:
-        'Título árabe individual no identificado en las fuentes proporcionadas.',
+        'De Ali ben Bakkar y Shams Al-Nahar (también transcrito como Alí ben-Bekar y Schamsennahar).',
       spanishName:
         'Historia de Alí Ben-Bekar y la bella Schamsennahar',
       collection: 'Las mil y una noches',
@@ -1793,7 +1793,7 @@ export const stories: Story[] = [
         'La amistad verdadera se demuestra mediante las acciones. Abalhassan, Amín y la confidente ayudan a los protagonistas en momentos difíciles, aunque esa ayuda también implica riesgos.',
         'Las emociones necesitan acompañarse de prudencia. La historia muestra cómo el sufrimiento, el miedo y las decisiones desesperadas pueden tener consecuencias irreversibles.',
       ],
-      audio: null,
+      audio: '/audio/Alí.mp3',
       illustration: '/ilustraciones/Ali.JPG',
       illustrationAlt:
         'Ilustración de Alí Ben-Bekar y Schamsennahar.',
@@ -1818,7 +1818,7 @@ export const stories: Story[] = [
         },
       ],
       contentNote:
-        'Publicación preparada para el 23 de noviembre de 2026. El audio de solo voz está pendiente de incorporar.',
+        'Publicación del 23 de noviembre de 2026. Audio de solo voz incorporado.',
       shop:
         'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
       shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
