@@ -1003,112 +1003,142 @@ export const stories: Story[] = [
     shopLabel: '',
     shopLinks: [],
   },
-  {
-  slug: 'el-rey-omar-al-neman-y-sus-dos-hijos',
-  title: 'El rey Omar al Neman y sus dos hijos Scharkan y Daul Makan',
+{
+  slug: 'el-jorobado-con-el-sastre-el-corredor-nazareno-el-intendente-y-el-medico-judio',
+  title: 'El jorobado, con el sastre, el corredor nazareno, el intendente y el médico judío',
   originalTitle:
     'Título original en árabe no verificado para la edición consultada.',
+  spanishName:
+    'El jorobado, con el sastre, el corredor nazareno, el intendente y el médico judío',
   collection: 'Las mil y una noches',
-  literaryAuthor:
-    'Anónimo — tradición narrativa de Las mil y una noches.',
-  written:
-    'Fecha exacta desconocida; relato perteneciente a la tradición medieval de la colección.',
+  collectionDetail:
+    'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+  literaryAuthor: 'Anónimo.',
+  written: 'Fecha exacta desconocida; relato perteneciente a la tradición narrativa medieval.',
   authorId: 'elizabeth',
   publishedAt: '2026-11-14',
   plannedDate: '2026-11-14',
   status: 'published',
 
   excerpt:
-    'La historia de un poderoso rey, sus hijos y una serie de conflictos, viajes y encuentros que ponen a prueba la lealtad, el amor y el destino.',
+    'La muerte accidental de un jorobado desencadena una serie de confusiones, acusaciones y relatos sorprendentes en los que varios personajes intentan explicar lo sucedido.',
 
   characters: [
     {
-      name: 'Omar al Neman',
+      name: 'El jorobado',
       description:
-        'Rey poderoso cuyo linaje da origen a las aventuras principales del relato.',
+        'Un hombre divertido que entretiene a los demás con sus canciones y ocurrencias, cuya muerte accidental desencadena toda la historia.',
     },
     {
-      name: 'Scharkan',
+      name: 'El sastre',
       description:
-        'Príncipe valiente y hábil guerrero que vive importantes aventuras y conflictos.',
+        'Un artesano que invita al jorobado a cenar junto con su esposa y que se ve involucrado en la confusión tras su muerte.',
     },
     {
-      name: 'Daul Makan',
+      name: 'El corredor nazareno',
       description:
-        'Hijo del rey Omar al Neman que enfrenta desafíos relacionados con la política y el destino de su reino.',
+        'Un comerciante cristiano que se encuentra involucrado en el caso del jorobado y que relata una historia extraordinaria para explicar sus circunstancias.',
     },
     {
-      name: 'Nuzhat al-Zaman',
+      name: 'El intendente',
       description:
-        'Hermana de Daul Makan, protagonista de diversos acontecimientos del relato.',
+        'Un funcionario encargado de abastecer la cocina del rey que se ve envuelto en el enredo relacionado con el cadáver del jorobado.',
     },
     {
-      name: 'Abriza',
+      name: 'El médico judío',
       description:
-        'Princesa cristiana cuya historia se relaciona estrechamente con Scharkan.',
+        'Un médico que, al intentar atender a un supuesto enfermo, se involucra accidentalmente en la muerte del jorobado y en las posteriores acusaciones.',
+    },
+    {
+      name: 'El barbero de Bagdad',
+      description:
+        'Un hombre astuto, hablador y observador que interviene en la historia y cuya participación conduce a nuevos relatos sobre sus hermanos.',
     },
   ],
 
   summary: [
-    'El rey Omar al Neman gobierna un gran reino y tiene dos hijos destacados: Scharkan y Daul Makan. Ambos crecen rodeados de privilegios, pero pronto deberán enfrentarse a situaciones que pondrán a prueba su carácter.',
+    'En una ciudad de China, un sastre y su esposa encuentran a un jorobado que canta y hace reír a quienes lo escuchan. Divertidos por su compañía, lo invitan a cenar a su casa.',
 
-    'Scharkan participa en campañas militares y conoce a Abriza, una princesa cristiana de gran inteligencia y nobleza. Entre ambos surge una relación marcada por el respeto y la admiración.',
+    'Durante la cena, la esposa del sastre le introduce al jorobado un bocado de pescado, pero este se atraganta y muere accidentalmente. Asustados por lo sucedido, el sastre y su esposa llevan el cuerpo a casa de un médico judío y lo dejan allí.',
 
-    'Mientras tanto, Daul Makan y su hermana Nuzhat al-Zaman enfrentan conflictos políticos, viajes y peligros que afectan su futuro. Las intrigas, alianzas y enfrentamientos modifican el destino de varias familias y reinos.',
+    'El médico judío, al bajar apresuradamente para atender a un supuesto paciente, tropieza con el cadáver y cree que él mismo ha causado la muerte. Para evitar problemas, decide trasladarlo a la casa de un vecino, el intendente del rey.',
 
-    'A través de numerosas aventuras, los personajes descubren el valor de la lealtad, la justicia y la perseverancia. El relato muestra cómo las decisiones personales pueden influir en el destino de muchas personas.',
+    'El intendente se encuentra con el cuerpo y, al creer que se trata de un ladrón, se asusta al descubrir que está muerto y lo deja en el mercado. Posteriormente, el corredor nazareno se involucra en el enredo y también cree ser responsable de la muerte.',
+
+    'Las acusaciones y confesiones de los distintos personajes provocan una cadena de acontecimientos en la que cada uno intenta asumir la responsabilidad para evitar que otro sea castigado injustamente. Sus explicaciones dan lugar a relatos sobre sus propias experiencias.',
+
+    'Finalmente, la intervención del barbero de Bagdad permite aclarar el enredo y salvar a los implicados. El relato concluye con una sucesión de historias, situaciones cómicas y reflexiones sobre la imprudencia, la justicia y las consecuencias de los malentendidos.',
   ],
 
   lessons: [
-    'La lealtad y el honor fortalecen las relaciones entre las personas y ayudan a enfrentar las dificultades.',
+    'Las decisiones tomadas por miedo pueden complicar aún más los problemas. Los personajes intentan ocultar el cadáver para evitar consecuencias, pero sus acciones provocan un enredo cada vez mayor.',
 
-    'Las decisiones impulsivas pueden provocar consecuencias inesperadas; por ello es importante reflexionar antes de actuar.',
+    'Los malentendidos pueden ocasionar injusticias. La historia muestra cómo las suposiciones y la falta de comunicación conducen a acusaciones y situaciones absurdas.',
 
-    'La perseverancia permite superar los obstáculos y afrontar los cambios que trae la vida.',
+    'La justicia debe basarse en la verdad y no en las apariencias. Los personajes son acusados sin que se conozcan completamente las circunstancias de lo sucedido.',
+
+    'La inteligencia y la observación pueden ayudar a resolver problemas. La intervención del barbero demuestra que la astucia y el razonamiento pueden ser fundamentales para aclarar una situación complicada.',
   ],
 
   audio: null,
 
-  illustration: '/ilustraciones/omar-al-neman.jpg',
+  illustration: '/ilustraciones/jorobado.jpg',
   illustrationAlt:
-    'Representación artística del rey Omar al Neman y sus hijos.',
+    'Representación artística del jorobado en una escena de Las mil y una noches.',
 
   illustrations: [
     {
-      src: '/ilustraciones/omar-al-neman.jpg',
-      alt: 'Representación artística del rey Omar al Neman.',
-      caption: 'El rey Omar al Neman.',
+      src: '/ilustraciones/jorobado.jpg',
+      alt: 'El jorobado durante una cena con el sastre.',
+      caption: 'El jorobado, protagonista del relato.',
     },
-     {
-    src: '/ilustraciones/scharkan.jpg',
-    alt: 'El príncipe Scharkan durante sus aventuras.',
-    caption: 'Scharkan, hijo de Omar al Neman.',
-  },
-  {
-    src: '/ilustraciones/daul-makan.jpg',
-    alt: 'Daul Makan reflexiona sobre el destino de su reino.',
-    caption: 'Daul Makan, heredero del reino.',
-  },
+    {
+      src: '/ilustraciones/sastre.jpg',
+      alt: 'El sastre y su esposa reciben al jorobado en su casa.',
+      caption: 'El sastre y la cena que desencadena la historia.',
+    },
+    {
+      src: '/ilustraciones/medico-judio.jpg',
+      alt: 'El médico judío involucrado en el enredo del jorobado.',
+      caption: 'El médico judío y el malentendido.',
+    },
+    {
+      src: '/ilustraciones/corredor-nazareno.jpg',
+      alt: 'El corredor nazareno involucrado en las confusiones del relato.',
+      caption: 'El corredor nazareno.',
+    },
+    {
+      src: '/ilustraciones/intendente.jpg',
+      alt: 'El intendente que se encuentra con el cadáver del jorobado.',
+      caption: 'El intendente y el enredo del cadáver.',
+    },
+    {
+      src: '/ilustraciones/barbero.jpg',
+      alt: 'El barbero de Bagdad que interviene para resolver el enredo.',
+      caption: 'El barbero de Bagdad.',
+    },
   ],
 
   sources: [
     {
-      label: 'Ciudad Seva — Las mil y una noches',
-      url: 'https://ciudadseva.com/texto/las-mil-y-una-noches/',
+      label:
+        'Ciudad Seva — Historia del Jorobado, con el Sastre, el Corredor Nazareno, el Intendente y el Médico Judío',
+      url: 'https://ciudadseva.com/texto/las-mil-y-una-noches-07/',
     },
     {
-      label: 'Project Gutenberg — Arabian Nights',
-      url: 'https://www.gutenberg.org/',
+      label:
+        'Wikisource — El libro de las mil noches y una noche',
+      url: 'https://es.wikisource.org/wiki/El_libro_de_las_mil_noches_y_una_noche',
     },
   ],
 
   contentNote:
-    'El relato incluye conflictos bélicos, intrigas políticas y enfrentamientos. El resumen evita detalles gráficos.',
+    'El relato incluye situaciones de confusión, acusaciones y relatos intercalados. El resumen se centra en el argumento principal.',
 
   shop:
-    'https://www.gandhi.com.mx/las-mil-y-una-noches-9788477207955/p',
+    'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
 
-  shopLabel: 'Comprar en Librerías Gandhi',
+  shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
 
   shopLinks: [],
 },
@@ -1426,6 +1456,88 @@ export const stories: Story[] = [
     shopLabel: 'Ficha del libro — Las mil y una noches — Librerías Gandhi',
     shopLinks: []
   },
+  {
+  slug: 'aziz-y-aziza-y-el-hermoso-principe-diadema',
+  title: 'Aziz y Aziza y el hermoso príncipe Diadema',
+  originalTitle: 'Historia de Aziz y Aziza y del hermoso príncipe Diadema',
+  spanishName: 'Aziz y Aziza y el hermoso príncipe Diadema',
+  collection: 'Las mil y una noches',
+  collectionDetail: 'Las mil y una noches, cuyo título en árabe es Alf layla wa-layla.',
+  literaryAuthor: 'Anónimo.',
+  written: 'Fecha exacta desconocida; relato perteneciente a la tradición narrativa medieval.',
+  authorId: 'elizabeth',
+  publishedAt: '2026-11-20',
+  plannedDate: '2026-11-20',
+  status: 'published',
+  excerpt: 'Aziz relata al príncipe Diadema la historia de su amor por Aziza, una joven que lo amó profundamente y que intentó guiarlo a través de sus consejos. Sin embargo, las decisiones impulsivas de Aziz lo llevan a vivir experiencias dolorosas, marcadas por el amor, el arrepentimiento y las consecuencias de sus actos.',
+  characters: [
+    {
+      name: 'Aziz',
+      description: 'Joven mercader que relata sus aventuras amorosas al príncipe Diadema. Su ingenuidad, impulsividad y falta de atención a los consejos lo llevan a atravesar diversas desgracias.'
+    },
+    {
+      name: 'Aziza',
+      description: 'Prima de Aziz, quien lo ama profundamente. Es inteligente, sensible y procura enseñarle a comprender las señales, los sentimientos y las consecuencias de sus decisiones.'
+    },
+    {
+      name: 'Príncipe Diadema',
+      description: 'Joven príncipe de gran belleza que escucha la historia de Aziz y se interesa por sus experiencias y los recuerdos que conserva de Aziza.'
+    },
+    {
+      name: 'Princesa Donia',
+      description: 'Princesa de gran belleza, cuyo bordado y fama despiertan el interés y los sentimientos del príncipe Diadema.'
+    },
+    {
+      name: 'Madre de Aziz',
+      description: 'Madre de Aziz, quien lo acompaña y conserva los recuerdos y mensajes que Aziza le confió antes de morir.'
+    },
+    {
+      name: 'La joven esposa de Aziz',
+      description: 'Mujer con la que Aziz se relaciona durante sus aventuras y que forma parte de los acontecimientos que complican su vida amorosa.'
+    }
+  ],
+  summary: [
+    'La historia comienza con Aziz, un joven que pertenece a una familia de comerciantes y que crece junto a su prima Aziza. Desde pequeños, ambos comparten una relación cercana y, con el tiempo, Aziza desarrolla un profundo amor por él. Sin embargo, Aziz demuestra ser ingenuo y poco atento a las señales y consejos que ella intenta transmitirle.',
+    'Aziza procura orientarlo en sus relaciones y enseñarle a comprender los mensajes ocultos, las expresiones y las conductas de las mujeres. A pesar de su inteligencia y paciencia, Aziz no siempre comprende sus enseñanzas y comete errores que provocan sufrimiento a ambos.',
+    'A lo largo de sus aventuras, Aziz se involucra en distintas situaciones amorosas que lo alejan de Aziza. Sus decisiones, impulsadas por la curiosidad y la falta de reflexión, lo conducen a experiencias difíciles y a consecuencias que no logra prever.',
+    'Aziza, pese a su tristeza, continúa preocupándose por Aziz y deja mensajes y recuerdos que buscan ayudarlo a comprender el valor del amor, la fidelidad y la prudencia. Su historia se convierte en un relato de sacrificio, tristeza y sentimientos que no siempre son correspondidos de la misma manera.',
+    'Tiempo después, Aziz se encuentra con el príncipe Diadema, a quien le cuenta sus experiencias y le muestra dos telas bordadas que guardan recuerdos de sus amores. A través de estos objetos, Aziz revive los acontecimientos que marcaron su vida y la relación que tuvo con Aziza.',
+    'El relato se entrelaza con las aventuras del príncipe Diadema, quien también experimenta sentimientos amorosos y se ve envuelto en una historia que conecta las vivencias de Aziz con nuevos acontecimientos. Así, el cuento presenta una combinación de romance, aventuras, engaños, sufrimiento y aprendizaje.'
+  ],
+  lessons: [
+    'Escuchar los consejos de quienes nos quieren puede ayudarnos a evitar errores y sufrimientos innecesarios.',
+    'Las decisiones impulsivas pueden tener consecuencias duraderas en nuestra vida y en la de los demás.',
+    'El amor no siempre es correspondido de la misma manera, por lo que es importante actuar con respeto y empatía.',
+    'La falta de comprensión y comunicación puede provocar malentendidos y situaciones dolorosas.',
+    'Las experiencias difíciles pueden convertirse en aprendizajes que nos ayudan a madurar y a valorar los sentimientos de los demás.'
+  ],
+  audio: null,
+  illustration: {
+    src: '/ilustraciones/aziz-aziza-diadema.jpg',
+    alt: 'Ilustración de Aziz, Aziza y el príncipe Diadema en una escena inspirada en Las mil y una noches.'
+  },
+  illustrations: [
+    '/ilustraciones/aziz-aziza-diadema.jpg',
+    '/ilustraciones/aziza.jpg',
+    '/ilustraciones/aziz.jpg',
+    '/ilustraciones/principe-diadema.jpg',
+    '/ilustraciones/princesa-donia.jpg'
+  ],
+  sources: [
+    {
+      title: 'Historia de Aziz y Aziza y del hermoso príncipe Diadema – Wikisource',
+      url: 'https://es.wikisource.org/wiki/Historia_de_Aziz_y_Aziza_y_del_hermoso_pr%C3%ADncipe_Diadema'
+    },
+    {
+      title: 'Las mil y una noches – Radioteca',
+      url: 'https://radioteca.net/media/uploads/manuales/2019_11/las_mil_y_una_noches.pdf'
+    }
+  ],
+  contentNote: 'Relato que aborda el amor no correspondido, la ingenuidad, los engaños, el sufrimiento emocional y las consecuencias de las decisiones personales. Contiene situaciones propias de la literatura tradicional oriental.',
+  shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9786071411716/p',
+  shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+  shopLinks: []
+}
   {
     slug: 'el-joven-kanmakan-hijo-de-daul-makan',
     title: 'El joven Kanmakán, hijo de Daul-makán',
