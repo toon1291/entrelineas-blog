@@ -1955,6 +1955,111 @@ export const stories: Story[] = [
       shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
       shopLinks: [],
     },
+    {
+      slug: 'historia-de-la-docta-simpatia',
+      title: 'Historia de la docta simpatía',
+      originalTitle:
+        'Título original individual no verificado; la fuente consultada la titula «Historia de la docta simpatía».',
+      collection: 'Las mil y una noches',
+      literaryAuthor:
+        'Anónimo; relato transmitido dentro de la tradición compilatoria de Las mil y una noches.',
+      written:
+        'Fecha de composición individual desconocida. Encyclopaedia Iranica describe la transmisión y las distintas redacciones de la colección; una traducción árabe de esta se remonta probablemente al siglo IX, pero ese dato no fecha este episodio.',
+      authorId: 'diego',
+      publishedAt: '2026-11-27',
+      plannedDate: '2026-11-27',
+      status: 'published',
+      excerpt:
+        'La esclava Simpatía demuestra su extraordinario saber ante el califa y los sabios de Bagdad.',
+      characters: [
+        {
+          name: 'Simpatía',
+          description:
+            'Joven esclavizada y dotada de amplios conocimientos, que responde a las preguntas de los sabios y defiende su mérito ante el califa.',
+        },
+        {
+          name: 'Abul-Hassán',
+          description:
+            'Hijo de un rico comerciante que malgasta la herencia de su padre; es el amo de Simpatía y acepta presentarla ante el califa.',
+        },
+        {
+          name: 'Harún Al-Rachid',
+          description:
+            'Califa de Bagdad que organiza la prueba pública de Simpatía, reconoce sus conocimientos y le ofrece elegir su futuro.',
+        },
+        {
+          name: 'Ibrahim ben-Sayar',
+          description:
+            'Sabio célebre que dirige una de las pruebas más difíciles; Simpatía también responde sus preguntas.',
+        },
+        {
+          name: 'El padre de Abul-Hassán',
+          description:
+            'Comerciante rico que deja una gran herencia a su hijo y le aconseja administrarla con prudencia.',
+        },
+        {
+          name: 'Los sabios examinadores',
+          description:
+            'Lectores del Corán, juristas, médicos, astrónomos, filósofos y otros eruditos convocados para poner a prueba los conocimientos de Simpatía.',
+        },
+      ],
+      summary: [
+        'En Bagdad, Abul-Hassán hereda una gran fortuna de su padre, quien le recomienda administrarla con cuidado. El joven gasta sus bienes y queda sumido en la pobreza; solo conserva a Simpatía, una joven esclavizada de extraordinaria preparación.',
+        'Para ayudar a su amo, Simpatía propone que la presente ante el califa y pida por ella diez mil dinares. Harún Al-Rachid decide comprobar sus capacidades y convoca a lectores del Corán, juristas, médicos, astrónomos, filósofos y otros sabios. Simpatía responde preguntas sobre diversas disciplinas y también plantea preguntas a quienes la examinan.',
+        'A lo largo de varias noches, Simpatía supera las pruebas y obtiene los mantos de los sabios que no logran responderle. Ibrahim ben-Sayar, considerado uno de los hombres más sabios de su época, también la interroga; ella responde sus enigmas y, después, demuestra su talento para tocar el laúd y cantar.',
+        'El califa recompensa a Abul-Hassán y ofrece a Simpatía la opción de quedarse en palacio o volver con su antiguo amo. Ella elige regresar con él. El califa respeta su decisión, le entrega una suma adicional y concede a Abul-Hassán un puesto de honor en la corte.',
+      ],
+      lessons: [
+        'La preparación y el estudio pueden ayudar a enfrentar la adversidad: Simpatía utiliza lo aprendido para demostrar sus capacidades ante quienes tienen poder.',
+        'Administrar con prudencia lo que se recibe importa: Abul-Hassán desoye el consejo de su padre y malgasta la herencia que debía sostenerlo.',
+        'Reconocer el mérito exige escuchar y evaluar a la persona, no descartarla por su edad o posición: el califa pone a prueba a Simpatía, reconoce sus respuestas y respeta la opción que ella expresa.',
+      ],
+      audio: '/audio/docta-simpatia-diego-garcia-cruz.mp3',
+      illustration: '/ilustraciones/Maqamat_hariri.jpg',
+      illustrationAlt:
+        'Miniatura medieval de varios hombres reunidos entre libros en una biblioteca',
+      illustrations: [
+        {
+          src: '/ilustraciones/Maqamat_hariri.jpg',
+          alt: 'Miniatura medieval de varios hombres reunidos entre libros en una biblioteca',
+          caption:
+            'Yahya al-Wasiti, 1237. Ilustración de las Maqamat de al-Hariri. Imagen de contexto sobre el estudio y el conocimiento; no representa una escena identificada de La docta Simpatía. Dominio público según Wikimedia Commons',
+        },
+        {
+          src: '/ilustraciones/manuscrito.jpg',
+          alt: 'Páginas manuscritas de una versión malaya de la historia de Tawaddud',
+          caption:
+            'Hikâyat Tawaddud, manuscrito en lengua malaya. Biblioteca Nacional de Francia, colección Malayo-polynésien 67. Digitalización difundida por Wikimedia Commons, cuya ficha indica dominio público en Francia',
+        },
+      ],
+      sources: [
+        {
+          label: 'Leer La docta Simpatía en español — Novarebook',
+          url: 'https://www.novarebook.com/books/el-libro-de-las-mil-noches-y-una-noche-t-7/chapters/3',
+        },
+        {
+          label: 'Lectura alternativa en español — copia archivada',
+          url: 'https://web.archive.org/web/20260917081019/https://cuentosbonitos.weebly.com/historia-de-la-docta-simpatia.html',
+        },
+        {
+          label: 'Sobre Las mil y una noches — Encyclopaedia Iranica',
+          url: 'https://www.iranicaonline.org/articles/alf-layla-wa-layla/',
+        },
+        {
+          label: 'Ilustración de la biblioteca — Yahya al-Wasiti',
+          url: 'https://commons.wikimedia.org/wiki/File:Maqamat_hariri.jpg',
+        },
+        {
+          label: 'Manuscrito de Tawaddud — Biblioteca Nacional de Francia',
+          url: 'https://commons.wikimedia.org/wiki/File:Hik%C3%A2yat_tawaddud_-_btv1b100888305_%2804_of_34%29.jpg',
+        },
+      ],
+      contentNote:
+        'El relato trata sobre esclavitud e incluye descripciones sexualizadas; este resumen omite esos detalles. No se ha verificado que la edición de Gandhi incluya este episodio.',
+      shop: 'https://www.gandhi.com.mx/las-mil-y-una-noches-9788446052470/p',
+      shopLabel: 'Comprar Las mil y una noches en Librerías Gandhi',
+      shopLinks: [],
+    },
 ];
 
 export const schedule = Array.from({ length: 24 }, (_, index) => ({
